@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/gym"
+            android:textColor="@color/colorAccent" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50dp"
+            android:background="@drawable/edittext_round"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:padding="@dimen/dimen_10dp"
+            android:id="@+id/txtGym"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/placeholder_gym" />
+
+        <fragment
+            android:id="@+id/googleMap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/dimen_10dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            style="@style/AppTheme.GreenButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/create"
+            android:id="@+id/btnAdd"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen_20dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            style="@style/AppTheme.GreenButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/delete"
+            android:id="@+id/btnDelete"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen_10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

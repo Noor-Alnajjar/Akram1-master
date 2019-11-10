@@ -1,0 +1,298 @@
+<resources>
+
+    <string name="facebook_app_id">2050964971847476</string>
+    <string name="app_name">Akram</string>
+    <string name="code_name">2.1  Orion</string>
+    <string name="my_location">My location</string>
+    <string name="custom">Custom</string>
+    <string name="added_by">Added by</string>
+    <string name="added_by_colon">Added by</string>
+    <string name="custom_location">Custom Location</string>
+    <string name="pin_drag_map">Hold the pin and drag around the map.</string>
+    <string name="no_pokemon_selected">Please select a Gift.</string>
+    <string name="field_empty_error">Please fill all fields</string>
+    <string name="field_empty_error_details_pokestop">Please provide a Pokestop name.</string>
+    <string name="field_empty_error_details_gym">Please provide a Gym name.</string>
+    <string name="placeholder_pokestop">e.g. Monuments, Parks, Churches, etc.</string>
+    <string name="placeholder_gym">e.g Monuments, Parks, etc.</string>
+    <string name="report_count">Report Count</string>
+    <string name="flag_sighting">Flag Sighting</string>
+    <string name="chars_left">Char(s) left</string>
+    <string name="send">Send</string>
+    <string name="empty_error_flag_details">Provide text for flagging reason.</string>
+    <string name="empty_error">Reason Error</string>
+    <string name="reporting">Reporting</string>
+    <string name="report">Report</string>
+    <string name="login_error">Login Error</string>
+    <string name="problems_encountered_login">Problem encountered during login. Try again later.</string>
+    <string name="network_error">Network Error</string>
+    <string name="no_network_connection">No network connection.</string>
+    <string name="loging_to_facebook">Login to Facebook</string>
+    <string name="login_to_twitter">Login to Twitter</string>
+    <string name="login_to_google_plus">Login to Google Plus</string>
+    <string name="home">Home</string>
+    <string name="my_sightings">My Sightings</string>
+    <string name="my_collection">My Collection</string>
+    <string name="login_register">Login/Register</string>
+    <string name="syncing_sighting">Syncing Sighting</string>
+    <string name="evaluating">Evaluating...</string>
+    <string name="flag_details">Flag Details</string>
+    <string name="placeholder_reasons">Reasons</string>
+    <string name="sighting_details">Gift Details</string>
+    <string name="add_gym">Add Gym</string>
+    <string name="edit_gym">Edit Gym</string>
+    <string name="select_pokemon">Select Gift</string>
+    <string name="add_pokemon">Add Gift</string>
+    <string name="edit_pokemon">Edit Gift</string>
+    <string name="add_pokestop">Add Pokestop</string>
+    <string name="edit_pokestop">Edit Pokestop</string>
+    <string name="empty_field_name">Name should not be empty.</string>
+    <string name="empty_field_fullname">Full Name should not be empty.</string>
+    <string name="empty_field_username">User Name should not be empty.</string>
+    <string name="empty_field_username_passowrd">User Name/Password should not be empty.</string>
+    <string name="empty_field_email">Email should be valid.</string>
+    <string name="empty_field_password">Password fields should not be empty.</string>
+    <string name="alert_delete_title">Delete Sighting</string>
+    <string name="alert_delete_details">Are you sure you want to delete?</string>
+    <string name="all">All</string>
+    <string name="gym">Gym</string>
+    <string name="pokemon">Gift</string>
+    <string name="pokemon_details">Gift Details</string>
+    <string name="pokestop">PokeStop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">Ok</string>
+    <string name="login">Login</string>
+    <string name="starred">Starred</string>
+    <string name="location_error">Location Error</string>
+    <string name="gps_off">Location/GPS is currently off. Go to your Mobile Device Settings, locate Location and set to On.</string>
+    <string name="failed_to_get_data">Failed to get data.</string>
+    <string name="no_results_found">No results found.</string>
+    <string name="empty">-----</string>
+    <string name="no_text"></string>
+    <string name="logging_in">Logging in</string>
+    <string name="action_error">Action Error</string>
+    <string name="register">Register</string>
+    <string name="registering_user">Registering User</string>
+    <string name="placeholder_name">Name</string>
+    <string name="add_from_galleries">Add from Galleries</string>
+    <string name="add_from_camera">Add from Camera</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_with_fb">Sign in with facebook</string>
+    <string name="ic_facebook">&#xf39e;</string>
+    <string name="dont_have_account">Don\'t Have Account?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="get_location">Get Location</string>
+    <string name="create">Create</string>
+    <string name="no_selected_location">Please select location.</string>
+    <string name="sync_error">Sync Error</string>
+    <string name="problems_encountered_while_syncing">Problem encountered while syncing. Try again later.</string>
+    <string name="delete_image">Delete Image</string>
+    <string name="delete_image_details">Are you sure you want to delete the image?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="drag_to_move_around"></string>
+    <string name="location">Location</string>
+    <string name="action_done">Done</string>
+    <string name="cannot_proceed_empty_latlong">Empty location. Please select map pin in the map.</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="search_results">Search Results</string>
+    <string name="results">Results</string>
+    <string name="radius">Radius</string>
+    <string name="km">Km.</string>
+    <string name="m">m.</string>
+    <string name="header_categories">CATEGORIES</string>
+    <string name="header_extras">EXTRAS</string>
+    <string name="header_user">USER</string>
+    <string name="about_us">About Akram</string>
+    <string name="terms_and_condition">Terms &amp; Condition</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="map">Map</string>
+    <string name="profile_details">Profile Details</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="updating_profile">Updating Profile</string>
+    <string name="edit">Edit</string>
+    <string name="select">Select</string>
+    <string name="deleting">Deleting</string>
+    <string name="update">Update</string>
+    <string name="update_sighting">Update Sighting</string>
+    <string name="current_location">Current Location</string>
+    <string name="placeholder_search">e.g. Bulbasaur, Poison, Ground, etc.</string>
+    <string name="alert_logout_user_title">Logout User</string>
+    <string name="alert_logout_user_title_details">Are you sure you want to logout?</string>
+    <string name="logout">Logout</string>
+    <string name="tap_here_to_login">Tap here to login.</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="no_value">-----</string>
+    <string name="empty_fields">Empty Fields</string>
+    <string name="wrong_fields_size">Wrong field size</string>
+    <string name="field_error">Field Error</string>
+    <string name="field_error_password">Password does not match.</string>
+    <string name="field_error_password_8_chars">Password should be atleast 8 chars.</string>
+    <string name="empty_fields_register">All fields should not be empty.</string>
+    <string name="tap_back_again_to_exit">Please tap back again to exit the app.</string>
+    <string name="password_error">Password Error</string>
+    <string name="password_error_details">Password not match.</string>
+    <string name="password_error_less_than_8_chars_details">Password must be atleast 8 characters.</string>
+    <string name="pokemon_name">Gift Name</string>
+    <string name="type">Type</string>
+    <string name="search_nearby">Search Nearby</string>
+    <string name="like">Like</string>
+    <string name="dislike">Dislike</string>
+    <string name="placeholder_email">Email</string>
+    <string name="placeholder_password">Password</string>
+    <string name="placeholder_confirm_password">Confirm Password</string>
+    <string name="username_chars_restriction">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_.</string>
+    <string name="password_chars_restriction">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_.@#%^&amp;*()_+/*-</string>
+    <string name="placeholder_username">Username</string>
+    <string name="placeholder_full_name">Full Name</string>
+
+    <string name="permission_error">Permission Error</string>
+    <string name="permission_error_details_location">Permission location denied. You need to turn on location to get relevant results for the stores nearby.</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="go_to_settings">Settings</string>
+    <string name="location_error_not_turned_on">No data to be shown because you decline the location request.</string>
+    <string name="grant_permission_storage">You need to grant permission request for reading to storage.</string>
+    <string name="gps_not_on">GPS is currently turn off. Please enable it under your mobile Settings > Location.</string>
+    <string name="location_error_not_turned_on_search">You declined the location request. Search functionality is disabled.</string>
+
+
+    <string name="Redeem_items_confirm">Collect</string>
+    <string name="Redeem_items_details">Do you want to collect item ?</string>
+    <string name="title_activity_maps_test">Map</string>
+    <string name="to_collection">Adding to collection</string>
+    <string name="Collect">collect</string>
+    <string name="login_required">Please login to collect items</string>
+    <string name="ExploreAndFind">No collected items in your account to show, Explore and collect items from the map</string>
+
+    <string name="trade">Trade</string>
+    <string name="better_together">Better Together</string>
+    <string name="better_together_details">Connect with friends and family to trade your items amongst yourselves</string>
+    <string name="item_info">Item information</string>
+    <string name="item_taken">This Item got taken</string>
+    <string name="trade_again">Trade was made successfully, Trade another Item?</string>
+
+
+    <string name="boarding">Need Help</string>
+    <string name="back">&lt;</string>
+    <string name="next">&gt;</string>
+    <string name="finish">Finish</string>
+
+
+    <string name="to_advance">To Advance</string>
+    <string name="to_extreme">To Extreme</string>
+    <string name="max_stage">Max Stage Reached</string>
+    <string name="advance">Advance Mode</string>
+    <string name="extreme">Extreme Mode</string>
+    <string name="Startup">Startup Mode</string>
+
+
+    <string name="screen1"></string>
+    <string name="screen2">then click on the gift to revel its information</string>
+    <string name="screen3">Then the gift details and its provider will appear, just click the “COLLECT“ button to collect it</string>
+    <string name="screen4">You can easily navigate through the app by using this slide menu</string>
+    <string name="screen5">Find your collected gift here</string>
+    <string name="screen6">to redeem your gift click on “LOCATION” to track the shop location. Don’t forget to show the QR code to the gift provider</string>
+    <string name="screen7">Connect with friends and family to exchange gifts, By scanning their Gift QR Code </string>
+    <string name="screen8">Select your interests to control receiving your favorite kind of gifts</string>
+    <string name="screen9">By allowing akram to access your location, the gift will be able to appear on the map</string>
+    <string name="screen10"></string>
+
+    <string name="title1">Everyday is christmas with \n Akram App</string>
+    <string name="title2">Find Your Gifts By Moving Around</string>
+    <string name="title3">Collect Gifts</string>
+    <string name="title4">Navigate The App</string>
+    <string name="title5">Your Collection</string>
+    <string name="title6">Your Gifts Details</string>
+    <string name="title7">Trade</string>
+    <string name="title8">Interest</string>
+    <string name="title9">Location Access</string>
+    <string name="title10">You Are Ready!\n Open Akram, Win Gifts And Enjoy The Experience</string>
+
+
+    <string name="Rate_Us">Enjoyed the app? Please rate us</string>
+    <string name="Dismiss">Dismiss</string>
+
+    <string name="notificationGift">There is a gift near you, open the app to find it.</string>
+    <string name="old_qr_version">The Qr code that you scanned is outdated, Let the item holder update his application</string>
+    <string name="locations">Locations</string>
+    <string name="readingqr">Waiting for the QR to be read</string>
+    <string name="item_got_read">Gift got read</string>
+    <string name="foryoursefty">For your own safety, Please Don\'t Play with Akram while you are driving.</string>
+
+
+    <string name="item_not_available">Item not available</string>
+    <string name="item_added_in_collection">Item added to your collection</string>
+    <string name="item_qr_not_supported">Qr Code not supported, please try again later</string>
+    <string name="there_is">You already have Gifts from</string>
+    <string name="in_your_collection">in your collection</string>
+
+
+    <string name="gift_name">Gift Name</string>
+    <string name="gift_info">Gift Information</string>
+    <string name="btn_continue">Continue</string>
+    <string name="gift_rules">Gift rules</string>
+    <string name="acknowledged">Acknowledged</string>
+    <string name="empty_field_phone">Phone should not be empty</string>
+    <string name="empty_dob">Date of birth should not be empty</string>
+    <string name="empty_gender">Gender should not be empty</string>
+    <string name="rating">Rating</string>
+    <string name="gift_rated">Gift Rated successfully</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="user_information">User Information</string>
+    <string name="rate_gift">Rate Gift</string>
+    <string name="forget_password">Forget your password?</string>
+    <string name="skip_login">Skip Login</string>
+    <string name="reseting_password">Sending reset Email</string>
+    <string name="email_sent">Email sent successfully</string>
+    <string name="gender">Select Gender</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="gift_type">Gift Type</string>
+    <string name="phone_wrong_size">Phone number must be between 8 and 12 digit</string>
+    <string name="expiry_date">Expiry Date :</string>
+    <string name="scan_item">Scan Item</string>
+    <string name="about_us_details">A modern treasure hunt game that has more than 4000 gifts with a value exceeding 500.000.00 $, play and enjoy collecting a huge number of gifts and win cash from completing challenges</string>
+    <string name="loading">Loading..</string>
+    <string name="my_interest">My Interest</string>
+    <string name="will_expire">Will expire in two days, redeem now and enjoy it</string>
+    <string name="change_password">Change Password</string>
+    <string name="sending_interest">"Sending Interest"</string>
+    <string name="get_categories">Get Categories</string>
+    <string name="mocking_spoofing">Please turn off location mocking/spoofing</string>
+    <string name="current_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="submit">Submit</string>
+    <string name="wrong_password">This Password does not match the user password</string>
+    <string name="by_registering_you_are_accepting_the_terms_and_condition">By registering you are accepting the terms and condition</string>
+    <string name="valid_dob">Your age should be at least 10 years old</string>
+    <string name="location_permistion">Allow Akram to Access this device location?</string>
+
+
+    <string name="title_activity_how_to_play2">HowToPlay2</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="open">Open</string>
+    <string name="start">Start</string>
+    <string name="error_occurred_please_sign_in_again">Error occurred please sign in again</string>
+    <string-array name="country_codes">
+        <item>+</item>
+        <item>+961</item>
+        <item>+962</item>
+        <item>+971</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

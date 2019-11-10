@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/toolsCategory"
+        android:title="@string/header_categories">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_drawer_home"
+                android:title="@string/home" />
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_menu_search"
+                android:title="@string/search"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_ic_drawer_about_us"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/nav_boarding"
+                android:icon="@drawable/ic_ic_drawer_how_to_play"
+                android:title="@string/boarding" />
+
+            <item
+                android:id="@+id/nav_terms_condition"
+                android:icon="@drawable/ic_ic_drawer_terms_and_conditions"
+                android:title="@string/terms_and_condition"
+                android:visible="true" />
+        </menu>
+    </item>
+
+    <item android:title="@string/header_user"
+        android:id="@+id/tools">
+        <menu>
+
+            <item
+                android:id="@+id/nav_login_register"
+                android:icon="@drawable/ic_ic_darwer_logout"
+                android:title="@string/login" />
+            <item
+                android:id="@+id/nav_register"
+                android:icon="@drawable/ic_menu_register"
+                android:title="@string/register"
+                android:visible="false" />
+        </menu>
+    </item>
+
+</menu>

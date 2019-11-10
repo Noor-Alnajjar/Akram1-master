@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:riv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    xmlns:app="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.libraries.imageview.RoundedImageView
+            android:id="@+id/imgViewThumb"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_marginBottom="11dp"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/bg_image_thumb_placeholder"
+            riv:corner_radius="50dp" />
+
+
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/circularProgressBar"
+            android:layout_width="88dp"
+            android:layout_height="91dp"
+            android:layout_alignEnd="@+id/imgViewThumb"
+            android:layout_alignBottom="@+id/imgViewThumb"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:cpb_background_progressbar_color="#FFCDD2"
+            app:cpb_background_progressbar_width="5dp"
+            app:cpb_progressbar_color="#F44336"
+            app:cpb_progressbar_width="10dp"
+            riv:cpb_background_progressbar_color="@color/colorAccentDark"
+            riv:cpb_progress="0"
+            riv:cpb_progress_max="1000"
+            riv:cpb_progressbar_color="@color/colorEnd" />
+
+        <TextView
+            android:id="@+id/txtScoreHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/checkbox_selector"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/colorAccentDark" />
+
+        <TextView
+            android:id="@+id/txtName_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginTop="84dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/cardview_dark_background"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</FrameLayout>

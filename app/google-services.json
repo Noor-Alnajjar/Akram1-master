@@ -1,0 +1,163 @@
+{
+  "project_info": {
+    "project_number": "772788582210",
+    "firebase_url": "https://akramtheone-restore.firebaseio.com",
+    "project_id": "akramtheone-restore",
+    "storage_bucket": "akramtheone-restore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772788582210:android:691049e7f7670629",
+        "android_client_info": {
+          "package_name": "com.dev.akram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772788582210-v6asmg4h1c86j4tqan88lsffjioqg160.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW2h0sZOKwaTyUnQjAbr-EwpwqSixPZ7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772788582210-v6asmg4h1c86j4tqan88lsffjioqg160.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "772788582210-5urcu2f3q395laea6qvompv6nrt4pdja.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.joserv.akram"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772788582210:android:4e426079c414d8e3747adb",
+        "android_client_info": {
+          "package_name": "com.joserv.Akram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772788582210-v6asmg4h1c86j4tqan88lsffjioqg160.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW2h0sZOKwaTyUnQjAbr-EwpwqSixPZ7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772788582210-v6asmg4h1c86j4tqan88lsffjioqg160.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "772788582210-5urcu2f3q395laea6qvompv6nrt4pdja.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.joserv.akram"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772788582210:android:95d706fdd3eeb96b",
+        "android_client_info": {
+          "package_name": "com.joserv.akramclean.akramdatacleaner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772788582210-tp6bfll30q446iag14737q5pmf3t2phm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joserv.akramclean.akramdatacleaner",
+            "certificate_hash": "f2acab90249dbdc08ad14157119021c85679815b"
+          }
+        },
+        {
+          "client_id": "772788582210-v6asmg4h1c86j4tqan88lsffjioqg160.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW2h0sZOKwaTyUnQjAbr-EwpwqSixPZ7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772788582210-v6asmg4h1c86j4tqan88lsffjioqg160.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "772788582210-5urcu2f3q395laea6qvompv6nrt4pdja.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.joserv.akram"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772788582210:android:974db4c78ff5a510",
+        "android_client_info": {
+          "package_name": "com.staff.joserv.akram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772788582210-v6asmg4h1c86j4tqan88lsffjioqg160.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW2h0sZOKwaTyUnQjAbr-EwpwqSixPZ7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772788582210-v6asmg4h1c86j4tqan88lsffjioqg160.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "772788582210-5urcu2f3q395laea6qvompv6nrt4pdja.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.joserv.akram"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

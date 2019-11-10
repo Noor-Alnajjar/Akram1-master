@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_white_alpha">#55565b</color>
+    <color name="colorPrimaryAlpha">#0e8d41</color>
+    <color name="colorPrimary">#0e8d41</color>
+    <color name="colorPrimaryDark">#195038</color>
+    <color name="colorAccent">#0e8d41</color>
+    <color name="colorRipple">#0e8d41</color>
+    <color name="colorAccentAlpha">#0e8d41</color>
+    <color name="colorAccentDark">#195038</color>
+    <color name="colorAccentDisabled">#cacaca</color>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGreen">#0FA24A</color>
+
+    <color name="color_header">#AA000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="colorTitleText">#ffffffff</color>
+    <color name="edittext_border_color">#e5e5e5</color>
+    <color name="placeholder_fill_color">#e5e5e5</color>
+    <color name="placeholder_bg_color">#cacaca</color>
+
+    <color name="colorFacebook">#3549af</color>
+    <color name="colorGooglePlus">#dd4b39</color>
+    <color name="colorTwitter">#44bcd8</color>
+    <color name="line_color">#e5e5e5</color>
+
+    <color name="colorStart">#e53e41</color>
+    <color name="colorCenter">#f14346</color>
+    <color name="colorEnd">#be3336</color>
+    <color name="colortransperantwhite">#11FFFFFF</color>
+</resources>
