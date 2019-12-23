@@ -28,6 +28,11 @@
                 android:icon="@drawable/ic_ic_drawer_terms_and_conditions"
                 android:title="@string/terms_and_condition"
                 android:visible="true" />
+
+            <item
+                android:id="@+id/nav_event"
+                android:icon="@drawable/ic_event"
+                android:title="@string/events" />
         </menu>
     </item>
 

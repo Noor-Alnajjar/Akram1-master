@@ -32,4 +32,6 @@
     <color name="colorCenter">#f14346</color>
     <color name="colorEnd">#be3336</color>
     <color name="colortransperantwhite">#11FFFFFF</color>
+
+    <color name="colorGreenLight">#FF89C7A1</color>
 </resources>

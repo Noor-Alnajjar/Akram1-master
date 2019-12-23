@@ -30,7 +30,6 @@ public class AboutUsActivity extends AppCompatActivity {
     }
 
     private void init() {
-
         txtLink = (TextView) findViewById(R.id.akramlink);
         facebook = (ImageView) findViewById(R.id.imgFaceBook);
         instagram = (ImageView) findViewById(R.id.imgInstagram);
@@ -98,10 +97,7 @@ public class AboutUsActivity extends AppCompatActivity {
     }
 
     public void openFacebookIntent() {
-
         startActivity(newFacebookIntent(getPackageManager(),"https://www.facebook.com/AkramAppOffical/"));
-
-
     }
 
     public static Intent newFacebookIntent(PackageManager pm, String url) {
@@ -115,7 +111,6 @@ public class AboutUsActivity extends AppCompatActivity {
         } catch (PackageManager.NameNotFoundException ignored) {
         } catch (Exception e){
             return new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-
         }
         return new Intent(Intent.ACTION_VIEW, uri);
     }
@@ -129,5 +124,4 @@ public class AboutUsActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
 }

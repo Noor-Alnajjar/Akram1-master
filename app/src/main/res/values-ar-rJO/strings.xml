@@ -109,6 +109,7 @@
     <string name="header_user">المستخدم</string>
     <string name="about_us">نبذة عنا</string>
     <string name="terms_and_condition">شروط والاحكام</string>
+    <string name="events">الفعاليات</string>
     <string name="settings">خصائص</string>
     <string name="profile">حسابي</string>
     <string name="map">الخريطه</string>
@@ -173,7 +174,7 @@
     <string name="Collect">اخذ</string>
     <string name="login_required">الرجاء تسجيل الدخول لتمكن من الحصول عليه</string>
     <string name="ExploreAndFind">لا يوجد جوائز في مجموعتك, إبحث واحصل على الجوائز لتجدهم هنا</string>
-
+    <string name="noEvents">لا توجد فعاليات لإظهارها</string>
 
     <string name="trade">مقايضة</string>
     <string name="better_together">معا أفضل</string>
@@ -273,9 +274,16 @@
     <string name="location_permistion">هل تسمح لأكرم بالوصول إلى موقع الجهاز هذا؟</string>
     <string name="open">افتح</string>
     <string name="start">ابدأ</string>
-
-
-
-
-
+    <string name="title_activity_event_details">تفاصيل الفعالية</string>
+    <string name="country">البلد : </string>
+    <string name="created_date">تاريخ الانشاء : </string>
+    <string name="starting_date">تاريخ البدأ : </string>
+    <string name="status">الحالة : </string>
+    <string name="created">الانشاء:</string>
+    <string name="starting">البدأ</string>
+    <string name="gift">هدية</string>
+    <string name="about_us_details">لعبة البحث عن الكنز الحديثة التي تضم أكثر من 4000 هدية بقيمة تتجاوز 500.000.00 دولار ، العب واستمتع بجمع عدد كبير من الهدايا وكسب النقود من إكمال التحديات</string>
+    <string name="title_activity_how_to_play2">كيف ألعب2</string>
+    <string name="section_format">مرحبًا العالم من القسم:٪ 1 $ d</string>
+    <string name="error_occurred_please_sign_in_again">حدث خطأ ، يرجى تسجيل الدخول مرة أخرى</string>
 </resources>

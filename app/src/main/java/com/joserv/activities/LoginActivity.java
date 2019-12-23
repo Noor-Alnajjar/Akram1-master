@@ -97,11 +97,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         txtUsername.requestFocus();
         txtPassword = (EditText) findViewById(R.id.txtPassword);
 
-        if(!launcherActivity.equals("SplashActivity")){
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        txtSkip.setVisibility(View.GONE);
+        try {
+            if(!launcherActivity.equals("SplashActivity")) {
+                getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+                txtSkip.setVisibility(View.GONE);
+            }
+        } catch (Exception e){
+            e.getLocalizedMessage();
         }
-
 
         mTwitter = new TwitterApp(this, twitterAppListener);
         FacebookSdk.sdkInitialize(this.getApplicationContext());
@@ -152,9 +155,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     @Override
-    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-
-    }
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {}
 
     private void getUserProfile(LoginResult loginResult) {
         String accessToken = loginResult.getAccessToken().getToken();
@@ -174,7 +175,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-
         switch (v.getId()) {
             case R.id.btnFacebook:
                 loginToFacebook();
@@ -188,15 +188,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.txtSkipLogin:
                 startmain();
                 break;
-            case R.id.txtForgetPassword :
+            case R.id.txtForgetPassword:
                 forgetPassword();
-                
                 break;
         }
     }
 
     private void forgetPassword() {
-
         LayoutInflater layoutInflater = LayoutInflater.from(LoginActivity.this);
         final View promptView = layoutInflater.inflate(R.layout.forget_password_dialog, null);
 
@@ -209,20 +207,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onClick(View view) {
                 if(TextUtils.isEmpty(txtEmail.getText()) || !isValidEmail(txtEmail.getText())) {
-
                     txtEmail.setError(getResources().getString(R.string.empty_field_email));
-
                     return;
                 }
-
                 alertDialog.dismiss();
                 sendForgetRequest(txtEmail.getText().toString());
-
             }
         });
-
         alertDialog.show();
-
     }
 
     private void sendForgetRequest(final String s) {
@@ -250,12 +242,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         view = new View(LoginActivity.this);
                     }
                     imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
-
                 }
-
                 @Override
                 public void onAsyncTaskDoInBackground(MGAsyncTask asyncTask) {
                     // TODO Auto-generated method stub
+
+                    Log.e("ddddd",Config.FORGET_PASSWORD +","+ s +","+  Config.API_KEY);
                     ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
                     params.add(new BasicNameValuePair("email",s ));
                     params.add(new BasicNameValuePair("api_key", Config.API_KEY ));
@@ -267,8 +259,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private void startmain() {
         finish();
-        startActivity(new Intent(LoginActivity.this,MainActivity.class));
-
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
     }
 
     private void regester() {
@@ -293,7 +286,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     public void updateLogin(DataResponse response, String imageURL, String name) {
-
         if(response == null) {
             MGUtilities.showAlertView(
                     LoginActivity.this,
@@ -307,6 +299,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             if(status.getStatus_code() == 1 && response.getUser() != null ) {
                 User user = response.getUser();
                 if(user != null) {
+                    Log.e("LoginUserData", response.toString());
                     UserAccessSession session = UserAccessSession.getInstance(this);
                     UserSession userSession = new UserSession();
 
@@ -338,7 +331,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             }
         }
     }
-
 
     public void syncTwitterUser(final AccessToken accessToken, final String screenName) {
         if(!MGUtilities.hasConnection(this)) {
@@ -405,8 +397,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     public void login() {
-
-
         String password = Html.toHtml(new SpannableString(txtPassword.getText().toString()) );
         String username = Html.toHtml(new SpannableString(txtUsername.getText().toString()) );
         password = MGUtilities.filterInvalidChars(password);

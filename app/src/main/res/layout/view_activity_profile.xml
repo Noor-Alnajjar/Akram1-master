@@ -136,7 +136,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/dimen_5dp"
                 android:background="@drawable/edittext_round"
-                android:enabled="false"
+                android:focusable="false"
                 android:gravity="center"
                 android:hint="@string/date_of_birth"
                 android:imeOptions="actionNext"
@@ -192,8 +192,8 @@
                     android:id="@+id/txtNumber"
                     android:layout_width="274dp"
                     android:layout_height="@dimen/dimen_50dp"
+                    android:backgroundTint="@android:color/transparent"
                     android:layout_gravity="center_horizontal"
-                    android:background="@drawable/edittext_round"
                     android:gravity="center"
                     android:hint="Phone Number"
                     android:inputType="phone" />
@@ -217,6 +217,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/dimen_30dp"
                 android:text="@string/change_password"
+                android:background="@drawable/rounded_button"
+                android:textAllCaps="false"
                 android:visibility="visible" />
 
             <android.support.v7.widget.AppCompatButton
@@ -225,6 +227,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center_horizontal"
+                android:background="@drawable/rounded_button"
+                android:textAllCaps="false"
                 android:layout_marginTop="10dp"
                 android:text="@string/update_profile" />
         </LinearLayout>

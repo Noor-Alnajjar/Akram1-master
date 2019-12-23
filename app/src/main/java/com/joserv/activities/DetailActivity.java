@@ -89,10 +89,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
     private ValueEventListener valueEventListenerDuplecate;
     private ValueEventListener valueEventListenerDatabaseItems;
 
-
-
-
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
 
@@ -182,8 +178,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
                     .child("Collection").child(String.valueOf(gifts.getGift_map_id()));
 
 
-
-
             //to check if this item has been taken before and still has it
             dataBaseItemDuplecate=FirebaseDatabase.getInstance().getReference().child("Akram").child(String.valueOf(userSession.getId()));
             //databasefakeid = FirebaseDatabase.getInstance().getReference().child("Akram").child("fakeId").child(String.valueOf(user.getUser_id()));
@@ -218,8 +212,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
                                         plslogin.setVisibility(View.GONE);
                                         Utils.hideLoading();
                                         snakBarMsg(getResources().getString(R.string.item_taken),3);
-
-
                                     }else if(empty && !dataSnapshot.exists()){
                                         btncollect.setVisibility(View.VISIBLE);
                                         btncollect.setEnabled(true);
@@ -247,9 +239,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
 
                         }
                     });
-        }
-        else {
-
+        } else {
             btncollect.setEnabled(false);
             btncollect.setVisibility(View.GONE);
             plslogin.setVisibility(View.VISIBLE);
@@ -297,11 +287,9 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
                         updateTextUser();
                     }
                 });
-
             }
         });
         task.execute();
-
     }
 
     private void updateTextUser() {
@@ -311,7 +299,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         imgEmail = (ImageView) findViewById(R.id.imgEmail);
         imgdailer = (ImageView) findViewById(R.id.imgDail) ;
         imgProfile = (ImageView) findViewById(R.id.imgViewThumbUser) ;
-
 
 
         imgFacebook.setOnClickListener(new View.OnClickListener() {
@@ -334,8 +321,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
                 openDailer();
             }
         });
-
-
     }
 
     private void rateGift(final float v) {
@@ -375,7 +360,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     private void snakBarMsg (String msg, int dangerLevel){
-
         if(alertDialog==null){
             try {
                 LayoutInflater layoutInflater = LayoutInflater.from(DetailActivity.this);
@@ -399,13 +383,13 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
                 });
                 alertDialog.show();
             }catch (Exception ex){
-
+              ex.getLocalizedMessage();
             }
         }
     }
 
     private void showGiftRules() {
-//todo add this when you finish rules
+        //todo add this when you finish rules
         LayoutInflater layoutInflater= LayoutInflater .from(DetailActivity.this);
         final View promptView = layoutInflater.inflate(R.layout.gift_dialog,null);
 
@@ -429,13 +413,9 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
             }
         });
         alertDialog.show();
-
-
-
     }
 
     private boolean checkItem(DataSnapshot userspace,String itemID) {
-
         for(DataSnapshot snapshotCollection :userspace.child("Collection").getChildren()){
             if(snapshotCollection.child("item_id").exists()){
                 Log.e("gettting", "gettting");
@@ -447,10 +427,8 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
             }else {
                 return false;
             }
-
         }
         return false;
-
     }
 
     //todo not finnished yet
@@ -490,9 +468,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
     public void collect() {
         //setUpNotifcation();
         CollectFromServer();
-
     }
-
     private void setUpNotifcation() {
 
         Intent myIntent = new Intent(DetailActivity.this , SendNotificationAfterDays.class);
@@ -511,9 +487,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), 24*60*60*1000 , pendingIntent);
     }
 
-    public static String convertToEnglishDigits(String value)
-    {
-
+    public static String convertToEnglishDigits(String value) {
         String newValue = value.replace("١", "1").replace("٢", "2").replace("٣", "3").replace("٤", "4").replace("٥", "5")
                 .replace("٦", "6").replace("٨", "8").replace("٩", "9").replace("٠", "0")
                 .replace("٫",",").replace("٧","7");
@@ -523,10 +497,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
 
     public void CollectFromServer() {
         if(!MGUtilities.hasConnection(this)) {
-            MGUtilities.showAlertView(
-                    this,
-                    R.string.network_error,
-                    R.string.no_network_connection);
+            MGUtilities.showAlertView(this, R.string.network_error, R.string.no_network_connection);
             return;
         }
 
@@ -667,10 +638,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         alert.show();
 
     }
-
-
-    public void rateApp()
-    {
+    public void rateApp() {
         try
         {
             Intent rateIntent = rateIntentForUrl("market://details");
@@ -682,9 +650,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
             startActivity(rateIntent);
         }
     }
-
-    private Intent rateIntentForUrl(String url)
-    {
+    private Intent rateIntentForUrl(String url) {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(String.format("%s?id=%s", url, getPackageName())));
         int flags = Intent.FLAG_ACTIVITY_NO_HISTORY | Intent.FLAG_ACTIVITY_MULTIPLE_TASK;
         if (Build.VERSION.SDK_INT >= 21)
@@ -783,14 +749,12 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
             }
         });
         task.execute();
-
     }
 
     public DataResponse sync(ArrayList<NameValuePair> params) {
         DataResponse response = DataParser.getJSONFromUrlWithPostRequest(Config.RATE_GIFT, params,getApplicationContext());
         return response;
     }
-
     public void updateSync(DataResponse response) {
         if(response == null) {
             MGUtilities.showAlertView(
@@ -799,7 +763,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
                     R.string.problems_encountered_while_syncing);
             return;
         }
-
         Status status = response.getStatus();
         if(response != null && status != null) {
             if(status.getStatus_code() == -1) {
@@ -807,16 +770,11 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
                 setResult(Activity.RESULT_OK, i);
                 //showIntersitial();
                 finish();
-            }
-            else {
+            } else {
                 MGUtilities.showAlertView(this, R.string.network_error, status.getStatus_text());
             }
         }
     }
-
-
-
-
 
     public void showIntersitial() {
         Log.e("showingadd","aass5");
@@ -829,8 +787,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
             Log.e("showingadd","aass");
             loadRequest();
             Log.e("showingadd","aass1");
-
-
 
             mInterstitialAd.setAdListener(new AdListener() {
                 @Override
@@ -866,10 +822,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
                     //Toast.makeText(DetailActivity.this,"add ready",Toast.LENGTH_LONG).show();
                 }
             });
-
-
         }
-
     }
 
     private void loadRequest() {
@@ -880,8 +833,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         // Load ads into Interstitial Ads
         mInterstitialAd.loadAd(adRequest);
     }
-
-
 
     @Override
     protected void onResume() {
@@ -904,9 +855,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
          imgEmail = (ImageView) promptView.findViewById(R.id.imgEmail);
          imgdailer = (ImageView) promptView.findViewById(R.id.imgDail) ;
          imgProfile = (ImageView) promptView.findViewById(R.id.imgViewThumbUserpop) ;
-
-
-
 
         imgFacebook.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -939,21 +887,15 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
              }
          });
 
-
          alertDialog.show();
     }
-
     private void openDailer() {
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:"+responseMerchant.getPhone_number()));
         startActivity(intent);
     }
-
     private void OpenInsta() {
-
         try {
-
-
             Uri uri = Uri.parse(responseMerchant.getInstagram());
 
             Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
@@ -971,14 +913,12 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         }
     }
     public void openFacebookIntent() {
-
         try {
             Log.e("facebooklink", responseMerchant.getFace_book());
             startActivity(newFacebookIntent(getPackageManager(), responseMerchant.getFace_book()));
         }catch (Exception e){
             Toast.makeText(DetailActivity.this,getResources().getString(R.string.action_error),Toast.LENGTH_SHORT).show();
         }
-
     }
 
     public  Intent newFacebookIntent(PackageManager pm, String url) {
@@ -993,13 +933,9 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         } catch (PackageManager.NameNotFoundException ignored) {
         } catch (Exception e){
             return new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-
         }
-
         return new Intent(Intent.ACTION_VIEW, uri);
     }
-
-
 
     private void getDataUser(){
         task = new MGAsyncTask(DetailActivity.this);
@@ -1017,9 +953,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
             @Override
             public void onAsyncTaskPostExecute(MGAsyncTask asyncTask) {
                 // TODO Auto-generated method stub
-
             }
-
             @Override
             public void onAsyncTaskDoInBackground(MGAsyncTask asyncTask) {
                 // TODO Auto-generated method stub
@@ -1038,15 +972,12 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
                               updateTextUser();
                         }
                       });
-
             }
         });
         task.execute();
     }
 
     private void updateTextsDialog() {
-
-
 
         if(responseMerchant.getFace_book().equals("None")||responseMerchant.getFace_book().equals("null")||responseMerchant.getFace_book().equals("")){
             imgFacebook.setVisibility(View.GONE);
@@ -1066,15 +997,8 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         }
         //todo add merchant
         if(!responseMerchant.getImage().equals("")){
-
-
             PokemonApplication.getImageLoaderInstance(this).
-                    displayImage(
-                            responseMerchant.getImage(),
-                            imgProfile,
-                            PokemonApplication.getDisplayImageOptionsThumbInstance());
-
-
+                    displayImage(responseMerchant.getImage(), imgProfile, PokemonApplication.getDisplayImageOptionsThumbInstance());
         }
     }
 }

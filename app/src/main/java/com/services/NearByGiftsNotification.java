@@ -17,7 +17,6 @@ import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationCompat.Builder;
 import android.util.Log;
-
 import com.config.Config;
 import com.joserv.Akram.MainActivity;
 import com.joserv.Akram.R;
@@ -25,7 +24,6 @@ import com.libraries.asynctask.MGAsyncTaskNoDialog;
 import com.libraries.dataparser.DataParser;
 import com.libraries.utilities.MGUtilities;
 import com.models.DataResponse;
-
 import java.util.List;
 
 
@@ -33,57 +31,45 @@ public class NearByGiftsNotification extends Service {
     private static final String TAG = "BOOMBOOMTESTGPS";
     private LocationManager mLocationManager = null;
     private static final int LOCATION_INTERVAL = 1800000;
-  //  private static final int LOCATION_INTERVAL = 18000;
+    //private static final int LOCATION_INTERVAL = 18000;
     private static final float LOCATION_DISTANCE = 0f;
     private MGAsyncTaskNoDialog task;
     private NearByGiftsNotification myService;
     private NotificationHelper notificationHelper;
     private  DataResponse data;
 
-    private class LocationListener implements android.location.LocationListener
-    {
+    private class LocationListener implements android.location.LocationListener {
         Location mLastLocation;
 
-        public LocationListener(String provider)
-        {
+        public LocationListener(String provider) {
             Log.e("k", "LocationListener " + provider);
             mLastLocation = new Location(provider);
         }
-
         @Override
-        public void onLocationChanged(Location location)
-        {
+        public void onLocationChanged(Location location) {
             Log.e(TAG, "onLocationChanged: " + location);
             mLastLocation.set(location);
             if(!MainActivity.active)
             isThereGift(location);
         }
-
         @Override
-        public void onProviderDisabled(String provider)
-        {
+        public void onProviderDisabled(String provider) {
             Log.e(TAG, "onProviderDisabled: " + provider);
         }
-
         @Override
-        public void onProviderEnabled(String provider)
-        {
+        public void onProviderEnabled(String provider) {
             Log.e(TAG, "onProviderEnabled: " + provider);
         }
-
         @Override
         public void onStatusChanged(String provider, int status, Bundle extras)
         {
             Log.e(TAG, "onStatusChanged: " + provider);
         }
     }
-
     private void sendNotification() {
         notificationHelper=new NotificationHelper(this);
         notificationHelper. createNotification("Akram",getApplication().getResources().getString(R.string.notificationGift));
     }
-
-
     private void isThereGift(final Location location){
         task = new MGAsyncTaskNoDialog();
         task.setMGAsyncTaskListener(new MGAsyncTaskNoDialog.OnMGAsyncTaskListenerNoDialog() {
@@ -91,20 +77,15 @@ public class NearByGiftsNotification extends Service {
             public void onAsyncTaskProgressUpdate(MGAsyncTaskNoDialog asyncTask) { }
 
             @Override
-            public void onAsyncTaskPreExecute(MGAsyncTaskNoDialog asyncTask) {
-
-            }
-
+            public void onAsyncTaskPreExecute(MGAsyncTaskNoDialog asyncTask) {}
             @Override
             public void onAsyncTaskPostExecute(MGAsyncTaskNoDialog asyncTask) {
                 // TODO Auto-generated method stub
                 data = null;
             }
-
             @Override
             public void onAsyncTaskDoInBackground(MGAsyncTaskNoDialog asyncTask) {
                 // TODO Auto-generated method stub
-
                     try {
                         String strUrl = String.format("%s?api_key=%s&lat=%f&lon=%f&radius=%f&autorefresh=%s",
                                 Config.GET_SIGHTING_URL,
@@ -134,42 +115,30 @@ public class NearByGiftsNotification extends Service {
             }
         });
         task.execute();
-
-
     }
-
-    public static String convertToEnglishDigits(String value)
-    {
-
+    public static String convertToEnglishDigits(String value){
         String newValue = value.replace("١", "1").replace("٢", "2").replace("٣", "3").replace("٤", "4").replace("٥", "5")
                 .replace("٦", "6").replace("٨", "8").replace("٩", "9").replace("٠", "0")
                 .replace("٫",",").replace("٧","7");
-
         return newValue;
     }
-
     LocationListener[] mLocationListeners = new LocationListener[] {
             new LocationListener(LocationManager.GPS_PROVIDER),
             new LocationListener(LocationManager.NETWORK_PROVIDER)
     };
-
     @Override
     public IBinder onBind(Intent arg0)
     {
         return null;
     }
-
     @Override
-    public int onStartCommand(Intent intent, int flags, int startId)
-    {
+    public int onStartCommand(Intent intent, int flags, int startId) {
         Log.e(TAG, "onStartCommand");
         super.onStartCommand(intent, flags, startId);
         return START_STICKY;
     }
-
     @Override
-    public void onCreate()
-    {
+    public void onCreate(){
         myService = new NearByGiftsNotification();
         Log.e(TAG, "onCreate");
         initializeLocationManager();
@@ -194,10 +163,8 @@ public class NearByGiftsNotification extends Service {
             Log.d(TAG, "gps provider does not exist " + ex.getMessage());
         }
     }
-
     @Override
-    public void onDestroy()
-    {
+    public void onDestroy(){
         Log.e(TAG, "onDestroy");
         super.onDestroy();
         if (mLocationManager != null) {
@@ -210,7 +177,6 @@ public class NearByGiftsNotification extends Service {
             }
         }
     }
-
     private void initializeLocationManager() {
         Log.e(TAG, "initializeLocationManager");
         if (mLocationManager == null) {

@@ -24,6 +24,10 @@
                 android:icon="@drawable/ic_ic_drawer_terms_and_conditions"
                 android:title="@string/terms_and_condition" />
             <item
+                android:id="@+id/nav_event"
+                android:icon="@drawable/ic_event"
+                android:title="@string/events" />
+            <item
                 android:id="@+id/nav_search"
                 android:icon="@drawable/ic_menu_search"
                 android:title="@string/search"
@@ -50,7 +54,7 @@
                 android:icon="@drawable/ic_ic_drawer_interests"
                 android:title="@string/my_interest" />
             <item
-                android:id="@+id/nav_scan"
+                android:id="@+id/nav_trade"
                 android:icon="@drawable/ic_ic_drawer_trading"
                 android:title="@string/trade" />
             <item

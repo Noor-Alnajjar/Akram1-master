@@ -24,6 +24,8 @@ public class Config {
     //public static final String INTERSTITIAL_AD_UNIT_ID = "ca-app-pub-3940256099942544/1033173712";
 
     // public static String BASE_URL = "http://www.joserv.org/akram_new/index.php/api/";
+
+    // public static String BASE_URL = "http://akramportal.org/akramtesting/index.php/api/";       //this url is live
     public static String BASE_URL = "http://akramportal.org/akram/index.php/api/";
 
     // Set to true if you want to display test ads on your testing device
@@ -86,11 +88,17 @@ public class Config {
 
     public static String GET_MERCHANT_CONTRACT = BASE_URL + "Marchant/get_merchant_contract";
 
+    public static String GET_CONTRACT_LOCATION = BASE_URL + "Users/get_contract_location";
+
     public static String UPDATE_PROFILE = BASE_URL + "Users/update_user";
+
+    public static String UPDATE_PASSWORD = BASE_URL + "Users/update_password";
 
     public static String FORGET_PASSWORD = BASE_URL + "User/forget_password";
 
     public static String REGISTER_USER_FACEBOOK = BASE_URL + "User/register_user_facebook";
+
+    public static String RATE_MERCHANT = BASE_URL + "Users/rate_merchant";
 
     //end Akram 3.0
 
@@ -127,6 +135,12 @@ public class Config {
     public final static String POST_LIKE_DISLIKE_URL = BASE_URL + "rest/post_like_dislike.php";
 
     public final static String GET_USER = BASE_URL + "rest/get_user.php";
+
+    public final static String GET_Scheduled_Event = BASE_URL + "Map_gifts/get_scheduled_event";
+
+    public final static String GET_All_Event = BASE_URL + "Map_gifts/get_all_event";
+
+    public final static String GET_Event = BASE_URL + "Map_gifts/get_event";
 
     // DO NOT EDIT THIS
     public final static int DETAIL_ZOOM_OUT_VALUE = 20;
@@ -183,6 +197,7 @@ public class Config {
 
     // DO NOT EDIT THIS
     public static int MAP_ZOOM_LEVEL = 19;
+
 
     public static int MAX_ZOOM_OUT_LEVEL = 18;
 

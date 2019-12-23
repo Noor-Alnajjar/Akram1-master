@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id">2050964971847476</string>
+    <string name="app_name">अकरम</string>
+    <string name="code_name">2.1  ओरियन</string>
+    <string name="my_location">मेरा स्थान</string>
+    <string name="custom">विशेष रूप से</string>
+    <string name="added_by">द्वारा जोड़ा</string>
+    <string name="added_by_colon">द्वारा जोड़ा</string>
+    <string name="custom_location">विशेष रूप से स्थान</string>
+    <string name="pin_drag_map">पिन पकड़ें और नक्शे में खींचें।</string>
+    <string name="no_pokemon_selected">कृपया एक उपहार चुनें।</string>
+    <string name="field_empty_error">कृपया सभी स्थाान भरे</string>
+    <string name="field_empty_error_details_pokestop">कृपया एक पोकीस्टॉप नाम दें।</string>
+    <string name="field_empty_error_details_gym">कृपया एक जिम का नाम दें।</string>
+    <string name="placeholder_pokestop">जैसे स्मारक, पार्क, चर्च आदि।</string>
+    <string name="placeholder_gym">जैसे स्मारक, पार्क, आदि।</string>
+    <string name="report_count">रिपोर्ट की गिनती</string>
+    <string name="flag_sighting">निशाने पर झंडा लगायें</string>
+    <string name="chars_left">शब्द बचे</string>
+    <string name="send">भेजें</string>
+    <string name="empty_error_flag_details">झंडा के कारण के लिए टेक्स्ट दें।</string>
+    <string name="empty_error">कारण त्रुटि</string>
+    <string name="reporting">रिपोर्ट कर रहे ​हैं</string>
+    <string name="report">रिपोर्ट</string>
+    <string name="login_error">लॉगिन त्रुटि</string>
+    <string name="problems_encountered_login">लॉगिन के दौरान समस्या। बाद में पुन: प्रयास करें।</string>
+    <string name="network_error">नेटवर्क त्रुटि</string>
+    <string name="no_network_connection">नेटवर्क कनेक्शन नहीं है।</string>
+    <string name="loging_to_facebook">फेसबुक पर लॉगिन करें</string>
+    <string name="login_to_twitter">ट्विटर पर लॉगइन करें</string>
+    <string name="login_to_google_plus">गूगल प्लस पर लॉगइन करें</string>
+    <string name="home">होम</string>
+    <string name="my_sightings">मेरे निशाने</string>
+    <string name="my_collection">मेरा संग्रह</string>
+    <string name="login_register">लॉग इन करें/Register</string>
+    <string name="syncing_sighting">निशानों को समकालीन बना रहे हैं</string>
+    <string name="evaluating">मूल्यांकन ...</string>
+    <string name="flag_details">झंडे का विवरण</string>
+    <string name="placeholder_reasons">कारण</string>
+    <string name="sighting_details">उपहार का विवरण</string>
+    <string name="add_gym">जिम जोड़ें</string>
+    <string name="edit_gym">जिम को संपादित करें</string>
+    <string name="select_pokemon">उपहार का चयन करें</string>
+    <string name="add_pokemon">उपहार जोड़ें</string>
+    <string name="edit_pokemon">उपहार को संपादित करें</string>
+    <string name="add_pokestop">पोकीस्टॉप जोडें</string>
+    <string name="edit_pokestop">पोकीस्टॉप को संपादित करें</string>
+    <string name="empty_field_name">नाम खाली नहीं होना चाहिए।</string>
+    <string name="empty_field_fullname">पूरा नाम खाली नहीं होना चाहिए।</string>
+    <string name="empty_field_username">यूजर का नाम खाली नहीं होना चाहिए।</string>
+    <string name="empty_field_username_passowrd">यूजर नाम/पासवर्ड खाली नहीं होना चाहिए।</string>
+    <string name="empty_field_email">ईमेल मान्य होना चाहिए।</string>
+    <string name="empty_field_password">पासवर्ड खाली नहीं होनी चाहिए।</string>
+    <string name="alert_delete_title">निशाने को हटाएं</string>
+    <string name="alert_delete_details">क्या आप पक्का इसे हटाना चाहते हैं?</string>
+    <string name="all">सब</string>
+    <string name="gym">जिम</string>
+    <string name="pokemon">उपहार</string>
+    <string name="pokemon_details">उपहार का विवरण</string>
+    <string name="pokestop">पोकीस्टॉप</string>
+    <string name="navigation_drawer_open">नेविगेशन विकल्प खोलें</string>
+    <string name="navigation_drawer_close">नेविगेशन विकल्प बन्द करें</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="ok">ठीक</string>
+    <string name="login">लॉग इन</string>
+    <string name="starred">तारांकित</string>
+    <string name="location_error">स्थान त्रुटि</string>
+    <string name="gps_off">अभी स्थान/जीपीएस बंद है। अपनी मोबाइल डिवाइस सेटिंग पर जाएं, स्थान ढूंढें और चालू पर सेट करें।</string>
+    <string name="failed_to_get_data">डेटा प्राप्त करने में विफल।</string>
+    <string name="no_results_found">कोई परिणाम नहीं मिला।</string>
+    <string name="empty">-----</string>
+    <string name="no_text"></string>
+    <string name="logging_in">लॉगिंग किया जा रहा है</string>
+    <string name="action_error">क्रिया त्रुटि</string>
+    <string name="register">रजिस्टर</string>
+    <string name="registering_user">यूजर का पंजीकरण</string>
+    <string name="placeholder_name">नाम</string>
+    <string name="add_from_galleries">गैलरी से जोड़ें</string>
+    <string name="add_from_camera">कैमरा से जोड़ें</string>
+    <string name="update_profile">प्रोफ़ाइल अपडेट करें</string>
+    <string name="get_location">स्थान प्राप्त करें</string>
+    <string name="create">बनायें</string>
+    <string name="no_selected_location">कृपया स्थान चुनें।</string>
+    <string name="sync_error">सिंक त्रुटि</string>
+    <string name="problems_encountered_while_syncing">सिंक करते समय समस्या। बाद में पुन: प्रयास करें।</string>
+    <string name="delete_image">ईमेज हटाएं</string>
+    <string name="delete_image_details">क्या आप वाकई ईमेज को हटाना चाहते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="drag_to_move_around"></string>
+    <string name="location">स्थान</string>
+    <string name="action_done">डन</string>
+    <string name="cannot_proceed_empty_latlong">खाली स्थान। कृपया मैप में मैप पिन चुनें।</string>
+    <string name="delete">हटायें</string>
+    <string name="search">खोजें</string>
+    <string name="search_results">खोज का परिणाम</string>
+    <string name="results">परिणाम</string>
+    <string name="radius">घेरा</string>
+    <string name="km">किमी.</string>
+    <string name="m">मी.</string>
+    <string name="header_categories">श्रेणियाँ</string>
+    <string name="header_extras">अतिरिक्त</string>
+    <string name="header_user">यूजर</string>
+    <string name="about_us">अकरम के बारे में</string>
+    <string name="terms_and_condition">नियम व शर्त</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="map">मैप</string>
+    <string name="profile_details">प्रोफ़ाइल विवरण</string>
+    <string name="facebook">फेसबुक</string>
+    <string name="twitter">Twitter</string>
+    <string name="updating_profile">प्रोफ़ाइल अपडेट कर रहे हैं</string>
+    <string name="edit">संपादित करें</string>
+    <string name="select">चुनें</string>
+    <string name="deleting">हटा रहा है</string>
+    <string name="update">अपडेट</string>
+    <string name="update_sighting">निशाने अपडेट करें</string>
+    <string name="current_location">वर्तमान स्थान</string>
+    <string name="placeholder_search">जैसे बुलबासौर, पोईजन, ग्राऊंड, आदि।</string>
+    <string name="alert_logout_user_title">यूजर लॉगआउट करें</string>
+    <string name="alert_logout_user_title_details">क्या आप लॉग आउट करना चाहते हैं?</string>
+    <string name="logout">लॉगआउट</string>
+    <string name="tap_here_to_login">लॉगिन करने के लिए यहां टैप करें।</string>
+    <string name="password">पासवर्ड</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि करें</string>
+    <string name="username">यूजर</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="add_photo">तस्वीर जोड़ो</string>
+    <string name="no_value">-----</string>
+    <string name="empty_fields">खाली क्षेत्र</string>
+    <string name="wrong_fields_size">क्षेत्र का गलत आकार</string>
+    <string name="field_error">फ़ील्ड त्रुटि</string>
+    <string name="field_error_password">पासवर्ड मैच नहीं कर रहा है।</string>
+    <string name="field_error_password_8_chars">पासवर्ड कम से कम 8 अक्षरों का होना चाहिए।</string>
+    <string name="empty_fields_register">सभी क्षेत्र खाली नहीं होने चाहिए।</string>
+    <string name="tap_back_again_to_exit">ऐप से बाहर निकलने के लिए कृपया फिर से टैप करें।</string>
+    <string name="password_error">पासवर्ड त्रुटि</string>
+    <string name="password_error_details">पासवर्ड मेल नहीं खाता</string>
+    <string name="password_error_less_than_8_chars_details">पासवर्ड कम से कम आठ अक्षरों का होना चाहिए।</string>
+    <string name="pokemon_name">उपहार का नाम</string>
+    <string name="type">प्रकार</string>
+    <string name="search_nearby">नजदीक मे खोजे</string>
+    <string name="like">पसंद</string>
+    <string name="dislike">नापसन्द</string>
+    <string name="placeholder_email">ईमेल</string>
+    <string name="placeholder_password">पासवर्ड</string>
+    <string name="placeholder_confirm_password">पासवर्ड की पुष्टि करें</string>
+    <string name="username_chars_restriction">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_.</string>
+    <string name="password_chars_restriction">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_.@#%^&amp;*()_+/*-</string>
+    <string name="placeholder_username">यूजर नाम</string>
+    <string name="placeholder_full_name">पूरा नाम</string>
+
+    <string name="permission_error">अनुमति त्रुटि</string>
+    <string name="permission_error_details_location">स्थान की अनुमति नहीं मिली। आस-पास के स्टोर के लिए उचित परिणाम प्राप्त करने के लिए आपको स्थान चालू करना होगा।</string>
+
+    <string name="cancel">रद्द करें</string>
+    <string name="go_to_settings">सेटिंग्स</string>
+    <string name="location_error_not_turned_on">कोई डेटा नहीं दिखाया गया क्योंकि आपने स्थान अनुरोध को अस्वीकार किया है।</string>
+    <string name="grant_permission_storage">स्टोरेज से पढ़ने के लिए आपको अनुमति देने की आवश्यकता है।</string>
+    <string name="gps_not_on">अभी जीपीएस बंद है। कृपया इसे अपने मोबाइल सेटिंग > स्थान में जाके सक्षम करें।</string>
+    <string name="location_error_not_turned_on_search">आपने स्थान अनुरोध को अस्वीकार कर दिया। खोज कार्यक्षमता बंद है।</string>
+
+
+    <string name="Redeem_items_confirm">इकट्ठा करें</string>
+    <string name="Redeem_items_details">क्या आप आइटम एकत्र करना चाहते हैं?</string>
+    <string name="title_activity_maps_test">मैप</string>
+    <string name="to_collection">संग्रह में जोड़ रहे हैं</string>
+    <string name="Collect">इकट्ठा करें</string>
+    <string name="login_required">कृपया आइटम इकट्ठा करने के लिए लॉगिन करें</string>
+    <string name="ExploreAndFind">मैप से आइटम को दिखाने, खोज करने और इकट्ठा करने के लिए आपके खाते में कोई संग्रहित आइटम नहीं है</string>
+
+    <string name="trade">व्यापार</string>
+    <string name="better_together">एक साथ बेहतर</string>
+    <string name="better_together_details">लोगो के बीच अपने आइटम का व्यापार करने के लिए दोस्तों और परिवार के साथ जुड़ें</string>
+    <string name="item_info">वस्तु की जानकारी</string>
+    <string name="item_taken">यह आइटम लिया गया</string>
+    <string name="trade_again">व्यापार सफलतापूर्वक किया गया था, एक और आइटम व्यापार करें?</string>
+
+
+    <string name="boarding">मदद चाहिए</string>
+    <string name="back">&lt;</string>
+    <string name="next">&gt;</string>
+    <string name="finish">समाप्त</string>
+
+
+    <string name="to_advance">आगे बढ़ने के लिये</string>
+    <string name="to_extreme">चरम तक जाने के लिये</string>
+    <string name="max_stage">मैक्स स्टेज पर पहुंचे</string>
+    <string name="advance">अग्रिम मोड</string>
+    <string name="extreme">चरम मोड</string>
+    <string name="Startup">स्टार्टअप मोड</string>
+
+
+    <string name="screen1"></string>
+    <string name="screen2">फिर इसकी जानकारी को पुनः प्राप्त करने के लिए उपहार पर क्लिक करें</string>
+    <string name="screen3">तब उपहार का विवरण और उसे देने वाला दिखाई देगा, बस इसे इकट्ठा करने के लिए "इकट्ठा करें" बटन पर क्लिक करें</string>
+    <string name="screen4">आप इस स्लाइड मेनू का उपयोग करके आसानी से ऐप के माध्यम से नेविगेट कर सकते हैं</string>
+    <string name="screen5">यहां अपना इकट्ठे किये हुए उपहार खोजें</string>
+    <string name="screen6">अपने उपहार को पाने के लिए "स्थान" पर क्लिक करके शॉप के स्थान पर नज़र रखें। उपहार देने वाले को क्यूआर कोड दिखाना न भूलें</string>
+    <string name="screen7">अपने उपहार के क्यूआर कोड को स्कैन करके, उपहारों का आदान-प्रदान करने के लिए दोस्तों और परिवार के साथ जुड़ें</string>
+    <string name="screen8">अपने पसंदीदा तरह के उपहार प्राप्त करने को नियंत्रित करने के लिए अपनी रुचियों का चयन करें</string>
+    <string name="screen9">अकरम को आपकी स्थान की पहुंचने की अनुमति देकर, उपहार मैप पर दिखाई देगें</string>
+    <string name="screen10"></string>
+
+    <string name="title1">हर दिन \n अकरम ऐप के साथ क्रिसमस है</string>
+    <string name="title2">चारों तरफ घूम कर अपने उपहार खोजें</string>
+    <string name="title3">उपहार इकट्ठा करें</string>
+    <string name="title4">एप्लिकेशन नेविगेट करें</string>
+    <string name="title5">आपका संग्रह</string>
+    <string name="title6">आपका उपहार का विवरण</string>
+    <string name="title7">व्यापार</string>
+    <string name="title8">ब्याज</string>
+    <string name="title9">स्थान का उपयोग</string>
+    <string name="title10">आप तैयार हैं!\n अकरम, जीते हुए उपहार और अनुभव का आनंद लें</string>
+
+
+    <string name="Rate_Us">एप्लिकेशन का आनंद लिया? कृपया हमें रेट करें</string>
+    <string name="Dismiss">खारिज करें</string>
+
+    <string name="notificationGift">आपके पास एक उपहार है, इसे खोजने के लिए ऐप खोलें।</string>
+    <string name="old_qr_version">क्यूआर कोड जिसे आपने स्कैन किया है वह पुराना है, आइटम धारक को उसका एप्लिकेशन अपडेट करने दें</string>
+    <string name="locations">स्थान</string>
+    <string name="readingqr">क्यूआर पढ़ने के लिए प्रतीक्षा की जा रही है</string>
+    <string name="item_got_read">गिफ्ट पढ़ा गया</string>
+    <string name="foryoursefty">अपनी सुरक्षा के लिए, कृपया ड्राइव करते समय अकरम के साथ खेलने न जाएँ।</string>
+
+
+    <string name="item_not_available">आइटम उपलब्ध नहीं है</string>
+    <string name="item_added_in_collection">आइटम आपके संग्रह में जोड़ा गया</string>
+    <string name="item_qr_not_supported">क्यूआर कोड समर्थित नहीं है, कृपया बाद में पुनः प्रयास करें</string>
+    <string name="there_is">आपके पास पहले से ही उपहार हैं</string>
+    <string name="in_your_collection">आपके संग्रह में</string>
+
+
+    <string name="gift_name">उपहार का नाम</string>
+    <string name="gift_info">उपहार की जानकारी</string>
+    <string name="btn_continue">जारी रखें</string>
+    <string name="gift_rules">उपहार के नियम</string>
+    <string name="acknowledged">स्वीकार किया</string>
+    <string name="empty_field_phone">फोन खाली नहीं होना चाहिए</string>
+    <string name="empty_dob">जन्म तिथि खाली नहीं होनी चाहिए</string>
+    <string name="empty_gender">लिंग खाली नहीं होना चाहिए</string>
+    <string name="rating">रेटिंग</string>
+    <string name="gift_rated">गिफ्ट को सफलतापूर्वक रेट किया गया</string>
+    <string name="dismiss">खारिज करें</string>
+    <string name="date_of_birth">जन्म की तारीख</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="user_information">यूजर की जानकारी</string>
+    <string name="rate_gift">उपहार को रेट करें</string>
+    <string name="forget_password">पासवर्ड भूल गए</string>
+    <string name="skip_login">लॉगिन छोड़ दें</string>
+    <string name="reseting_password">रीसेट ईमेल भेजा</string>
+    <string name="email_sent"> ईमेल सफलतापूर्वक भेजा गया</string>
+    <string name="gender">लिंग चुनें</string>
+    <string name="enter_your_email_address">अपना ईमेल पता दर्ज करें</string>
+    <string name="gift_type">उपहार का प्रकार</string>
+    <string name="phone_wrong_size">फोन नंबर 8 और 12 अंकों के बीच होना चाहिए</string>
+    <string name="expiry_date">समाप्ति तिथि :</string>
+    <string name="scan_item">आइटम स्कैन करें</string>
+    <string name="about_us_details">एक आधुनिक खजाने का शिकार वाला खेल जिसमें 500,000,00 डॉलर से अधिक कीमत वाले 4000 से अधिक उपहार हैं, खेलें और बड़ी संख्या में उपहार इकट्ठा करने का आनंद लें और चुनौतियों को पूरा करने से नकद इनाम जीतें</string>
+    <string name="loading">लोड हो रहा है..</string>
+    <string name="my_interest">मेरी दिलचस्पी</string>
+    <string name="will_expire">दो दिनों में समाप्त हो जाएगा, अब रिडीम करें और इसका आनंद लें</string>
+    <string name="change_password">पासवर्ड बदलें</string>
+    <string name="sending_interest">"ब्याज भेजा जा रहा है"</string>
+    <string name="get_categories">श्रेणियाँ प्राप्त करें</string>
+    <string name="mocking_spoofing">कृपया स्थान का परिवर्तन होना बंद करें</string>
+    <string name="current_password">पुराना पासवर्ड</string>
+    <string name="new_password">नया पासवर्ड</string>
+    <string name="submit">जमा करें</string>
+    <string name="wrong_password">यह पासवर्ड यूजर के पासवर्ड से मेल नहीं खाता है</string>
+    <string name="by_registering_you_are_accepting_the_terms_and_condition">पंजीकरण करके आप नियम और शर्त स्वीकार कर रहे हैं</string>
+    <string name="valid_dob">आपकी उम्र कम से कम 10 साल होनी चाहिए</string>
+    <string name="location_permistion">अकरम को इस उपकरण के स्थान तक पहुच की अनुमति दें?</string>
+
+
+    <string-array name="country_codes">
+        <item>+</item>
+        <item>+961</item>
+        <item>+962</item>
+        <item>+971</item>
+    </string-array>
+    <string-array name="gender">
+        <item>पुरुष</item>
+        <item>महिला</item>
+    </string-array>
+    <string name="title_activity_how_to_play2">कैसेखेलें2</string>
+    <string name="section_format">हैलो वर्ल्ड, सेक्शन से: %1$d</string>
+    <string name="open">खुलें</string>
+    <string name="start">शुरु करें</string>
+    <string name="error_occurred_please_sign_in_again">त्रुटि हुई कृपया पुन: साइन इन करें</string>
+
+    <string name="sign_in">साइन इन करें</string>
+    <string name="sign_in_with_fb">फ़ेसबुक से साइन इन करें</string>
+    <string name="ic_facebook">&#xf39e;</string>
+    <string name="dont_have_account">क्या आपके पास खाता नहीं है?</string>
+    <string name="sign_up">साइन अप करें</string>
+    <string name="events">आयोजन</string>
+    <string name="noEvents">दिखाने की कोई घटना नहीं</string>
+
+    <string name="title_activity_event_details">घटना की जानकारी</string>
+    <string name="country">देश : </string>
+    <string name="created_date">रचना तिथि : </string>
+    <string name="starting_date">शुरू करने की तिथि - शुरू होने की तिथि - रवाना होने की तिथि : </string>
+    <string name="status">स्थिति : </string>
+    <string name="created">बनाया था:</string>
+    <string name="starting">शुरुआत में:</string>
+    <string name="gift">उपहार</string>
+</resources>

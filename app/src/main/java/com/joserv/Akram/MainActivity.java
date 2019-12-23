@@ -27,6 +27,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.FrameLayout;
@@ -41,10 +42,12 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 import com.joserv.activities.AboutUsActivity;
+import com.joserv.activities.EventsActivity;
 import com.joserv.activities.MyCollection;
 import com.joserv.activities.NotificationHistory;
-import com.joserv.activities.QrcodeReader;
+import com.joserv.activities.TradeActivity;
 import com.joserv.activities.TermsActivity;
 import com.libraries.asynctask.MGAsyncTask;
 import com.libraries.asynctask.MGAsyncTaskNoDialog;
@@ -101,11 +104,15 @@ public class MainActivity extends AppCompatActivity
     private AdView adView;
     InterstitialAd mInterstitialAd;
 
+    private AdView mAdView;
+    private String mAppUnitId;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT);
         setContentView(R.layout.activity_main);
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
@@ -155,7 +162,29 @@ public class MainActivity extends AppCompatActivity
         //todo add this
         //showAds();
         //showIntersitial();
+
+        mAppUnitId = "ca-app-pub-2373364756954365~5948197577";
+
+        mAdView = findViewById(R.id.adView);
+
+        initializeBannerAd(mAppUnitId);
+
+        loadBannerAd();
+        hideSoftKeyboard();
     }
+
+    private void initializeBannerAd(String appUnitId) {
+
+        MobileAds.initialize(this, appUnitId);
+
+    }
+
+    private void loadBannerAd() {
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+    }
+
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
@@ -291,6 +320,25 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(this, TermsActivity.class);
             startActivity(i);
         }
+
+        if (id == R.id.nav_event) {
+            try {
+                if(userSession.getId() == null){
+                    Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
+                    startActivity(loginIntent);
+                }else{
+                    setTitle(R.string.app_name);
+                    Intent i = new Intent(this, EventsActivity.class);
+                    i.putExtra("User_id", String.valueOf(userSession.getId()));
+                    startActivity(i);
+
+                }
+            }catch (Exception e){
+                e.getLocalizedMessage();
+                Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(loginIntent);
+            }
+        }
         if (id == R.id.nav_login_register) {
             setTitle(R.string.app_name);
             Intent i = new Intent(this, LoginActivity.class);
@@ -323,11 +371,11 @@ public class MainActivity extends AppCompatActivity
             i.putExtra("User_id", String.valueOf(userSession.getId()));
             startActivity(i);
         }
-        if (id == R.id.nav_scan) {
+        if (id == R.id.nav_trade) {
 
             setTitle(R.string.app_name);
 
-            Intent i = new Intent(this, QrcodeReader.class);
+            Intent i = new Intent(this, TradeActivity.class);
             startActivity(i);
         }
         if (id == R.id.nav_boarding) {
@@ -548,7 +596,7 @@ public class MainActivity extends AppCompatActivity
                     adView = new AdView(this);
                     adView.setAdSize(AdSize.SMART_BANNER);
                     adView.setAdUnitId(Config.BANNER_AD_UNIT_ID);
-                    //adView.setMinimumHeight(100);
+                    adView.setMinimumHeight(100);
 
                     frameAds.addView(adView);
 
@@ -562,7 +610,7 @@ public class MainActivity extends AppCompatActivity
                     adView.loadAd(adRequest);
                 }
             } else {
-                frameAds.setVisibility(View.GONE);
+                frameAds.setVisibility(View.VISIBLE);
             }
         } catch (Exception e){
             e.getLocalizedMessage();
@@ -654,5 +702,12 @@ public class MainActivity extends AppCompatActivity
 
         // Load ads into Interstitial Ads
         mInterstitialAd.loadAd(adRequest);
+    }
+
+    public void hideSoftKeyboard() {
+        if(getCurrentFocus()!=null) {
+            InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+            inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
+        }
     }
 }

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id">2050964971847476</string>
+    <string name="app_name">Akram</string>
+    <string name="code_name">2.1  Orion</string>
+    <string name="my_location">Mia posizione</string>
+    <string name="custom">Personalizzato</string>
+    <string name="added_by">Aggiunto da</string>
+    <string name="added_by_colon">Aggiunto da</string>
+    <string name="custom_location">Posizione Personalizzata</string>
+    <string name="pin_drag_map">Premi sul segnalino e trascinalo sulla mappa.</string>
+    <string name="no_pokemon_selected">Si prega di selezionare un Regalo.</string>
+    <string name="field_empty_error">Si prega di completare tutti i campi</string>
+    <string name="field_empty_error_details_pokestop">Si prega di fornire un nome Pokestop.</string>
+    <string name="field_empty_error_details_gym">Si prega di fornire un nome Palestra.</string>
+    <string name="placeholder_pokestop">e.g. Monumenti, Parchi, chiese, etc.</string>
+    <string name="placeholder_gym">e.g Monumenti, Parchi, etc.</string>
+    <string name="report_count">Conteggio Report</string>
+    <string name="flag_sighting">Avvistamento Bandiere</string>
+    <string name="chars_left">Caratteri mancanti</string>
+    <string name="send">Invia</string>
+    <string name="empty_error_flag_details">Fornisci del testo per la ragione della segnalazione.</string>
+    <string name="empty_error">Ragione Errore</string>
+    <string name="reporting">Segnalando</string>
+    <string name="report">Segnala</string>
+    <string name="login_error">Errore Login</string>
+    <string name="problems_encountered_login">Problema riscontrato durante il login. Prova più tardi.</string>
+    <string name="network_error">Errore Rete</string>
+    <string name="no_network_connection">Nessuna connessione di rete.</string>
+    <string name="loging_to_facebook">Accedi a Facebook</string>
+    <string name="login_to_twitter">Accedi a Twitter</string>
+    <string name="login_to_google_plus">Accedi a Google Plus</string>
+    <string name="home">Home</string>
+    <string name="my_sightings">Miei Avvistamenti</string>
+    <string name="my_collection">Mia Collezione</string>
+    <string name="login_register">Accedi/Registrati</string>
+    <string name="syncing_sighting">Sincronizzando Avvistamenti</string>
+    <string name="evaluating">Valutando...</string>
+    <string name="flag_details">Dettagli Bandiera</string>
+    <string name="placeholder_reasons">Ragione</string>
+    <string name="sighting_details">Dettagli Regalo</string>
+    <string name="add_gym">Aggiungi Palestra</string>
+    <string name="edit_gym">Modifica Palestra</string>
+    <string name="select_pokemon">Seleziona Regalo</string>
+    <string name="add_pokemon">Aggiungi Regalo</string>
+    <string name="edit_pokemon">Modifica Regalo</string>
+    <string name="add_pokestop">Aggiungi Pokestop</string>
+    <string name="edit_pokestop">Modifica Pokestop</string>
+    <string name="empty_field_name">Il nome non può essere vuoto.</string>
+    <string name="empty_field_fullname">Nome Completo non può essere vuoto.</string>
+    <string name="empty_field_username">User Name non può essere vuoto</string>
+    <string name="empty_field_username_passowrd">User Name/Password non può essere vuoto.</string>
+    <string name="empty_field_email">Email deve essere valida.</string>
+    <string name="empty_field_password">I campi password non possono essere vuoti.</string>
+    <string name="alert_delete_title">Elimina Avvistamento</string>
+    <string name="alert_delete_details">Sei sicuro di voler eliminare?</string>
+    <string name="all">Tutto</string>
+    <string name="gym">Palestra</string>
+    <string name="pokemon">Regalo</string>
+    <string name="pokemon_details">Dettagli Regalo</string>
+    <string name="pokestop">PokeStop</string>
+    <string name="navigation_drawer_open">Apri pannello navigazione</string>
+    <string name="navigation_drawer_close">Chiudi pannello navigazione</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="ok">Ok</string>
+    <string name="login">Login</string>
+    <string name="starred">Preferito</string>
+    <string name="location_error">Errore Posizione</string>
+    <string name="gps_off">Posizione/GPS è spento. Vai nelle impostazioni del tuo Dispositivo Mobile, trova Posizione e impostalo su On.</string>
+    <string name="failed_to_get_data">Impossibile ottenere dati.</string>
+    <string name="no_results_found">Nessun risultato trovato.</string>
+    <string name="empty">-----</string>
+    <string name="no_text"></string>
+    <string name="logging_in">Accedendo</string>
+    <string name="action_error">Errore Azione</string>
+    <string name="register">Registrati</string>
+    <string name="registering_user">Registrando utente</string>
+    <string name="placeholder_name">Nome</string>
+    <string name="add_from_galleries">Aggiungi da Gallerie</string>
+    <string name="add_from_camera">Aggiungi da Fotocamera</string>
+    <string name="update_profile">Aggiorna Profilo</string>
+    <string name="get_location">Ottieni Posizione</string>
+    <string name="create">Crea</string>
+    <string name="no_selected_location">Si prega di selezionare la Posizione.</string>
+    <string name="sync_error">Errore Sincronizzazione</string>
+    <string name="problems_encountered_while_syncing">Problema incontrato durante la sincronizzazione. riprovare più tardi.</string>
+    <string name="delete_image">Elimina Immagine</string>
+    <string name="delete_image_details">Sei sicuro di voler eliminare l\'immagine?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="drag_to_move_around"></string>
+    <string name="location">Posizione</string>
+    <string name="action_done">Fatto</string>
+    <string name="cannot_proceed_empty_latlong">Posizione vuota. Si prega di selezionare l\'indicatore sulla mappa.</string>
+    <string name="delete">Elimina</string>
+    <string name="search">Cerca</string>
+    <string name="search_results">Cerca Risultati</string>
+    <string name="results">Risultati</string>
+    <string name="radius">Raggio</string>
+    <string name="km">Km.</string>
+    <string name="m">m.</string>
+    <string name="header_categories">CATEGORIE</string>
+    <string name="header_extras">EXTRA</string>
+    <string name="header_user">UTENTE</string>
+    <string name="about_us">Riguardo a Akram</string>
+    <string name="terms_and_condition">Termini e Condizioni</string>
+    <string name="settings">Impostazioni</string>
+    <string name="profile">Profilo</string>
+    <string name="map">Mappa</string>
+    <string name="profile_details">Dettagli Profilo</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="updating_profile">Aggiornando Profile</string>
+    <string name="edit">Modifica</string>
+    <string name="select">Seleziona</string>
+    <string name="deleting">Eliminando</string>
+    <string name="update">Aggiorna</string>
+    <string name="update_sighting">Aggiorna Avvistamento</string>
+    <string name="current_location">Posizione Attuale</string>
+    <string name="placeholder_search">e.g. Bulbasaur, Veleno, Terra, etc.</string>
+    <string name="alert_logout_user_title">Disconnetti Utente</string>
+    <string name="alert_logout_user_title_details">Sei sicuro di volerti disconnettere?</string>
+    <string name="logout">Logout</string>
+    <string name="tap_here_to_login">Premi qui per accedere.</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Conferma Password</string>
+    <string name="username">Username</string>
+    <string name="full_name">Nome Completo</string>
+    <string name="add_photo">Aggiungi Foto</string>
+    <string name="no_value">-----</string>
+    <string name="empty_fields">Campi vuoti</string>
+    <string name="wrong_fields_size">Dimensioni Campi Errata</string>
+    <string name="field_error">Errore Campo</string>
+    <string name="field_error_password">La password non corrisponde.</string>
+    <string name="field_error_password_8_chars">La password dovrebbe essere di almeno 8 caratteri.</string>
+    <string name="empty_fields_register">Tutti i campi non dovrebbero essere vuoti.</string>
+    <string name="tap_back_again_to_exit">Si prega di premenre indietro nuovamente se si vuole uscire dall\'app</string>
+    <string name="password_error">Errore Password</string>
+    <string name="password_error_details">Password non corrispondente.</string>
+    <string name="password_error_less_than_8_chars_details">La password deve almeno essere 8 caratteri.</string>
+    <string name="pokemon_name">Nome Regali</string>
+    <string name="type">Tipo</string>
+    <string name="search_nearby">Cerca Vicini</string>
+    <string name="like">Mi Piace</string>
+    <string name="dislike">Non Mi Piace</string>
+    <string name="placeholder_email">Email</string>
+    <string name="placeholder_password">Password</string>
+    <string name="placeholder_confirm_password">conferma Password</string>
+    <string name="username_chars_restriction">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_.</string>
+    <string name="password_chars_restriction">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_.@#%^&amp;*()_+/*-</string>
+    <string name="placeholder_username">Username</string>
+    <string name="placeholder_full_name">Nome Completo</string>
+
+    <string name="permission_error">Errore Permessi</string>
+    <string name="permission_error_details_location">Persmessi posizione negati. Devi attivarela posizione per ottenere risultati rilevanti per i negozi vicini.</string>
+
+    <string name="cancel">Annulla</string>
+    <string name="go_to_settings">Impostazioni</string>
+    <string name="location_error_not_turned_on">Non vi sono dati da mostrare perchè hai rifiutato la richiesta di posizione.</string>
+    <string name="grant_permission_storage">Devi garantire i permessi di per poter leggere l\'archivio.</string>
+    <string name="gps_not_on">Il GPS è attualmente spento. Si prega di abilitarlo nelle Impostazioni mobile > Posizione.</string>
+    <string name="location_error_not_turned_on_search">Hai rifiuato la richiesta di posizione. La funzionalità di ricerca è disabilitata.</string>
+
+
+    <string name="Redeem_items_confirm">Raccogli</string>
+    <string name="Redeem_items_details">vuoi raccogliere l\'oggetto?</string>
+    <string name="title_activity_maps_test">Mappa</string>
+    <string name="to_collection">Aggiunto alla collezione</string>
+    <string name="Collect">raccogli</string>
+    <string name="login_required">Si prega di acccedre per raccogliere oggetti</string>
+    <string name="ExploreAndFind">Nessun oggetto raccolto da mostrare nel tuo account, Esplora e raccogli oggetti dalla mappa</string>
+
+    <string name="trade">Scambia</string>
+    <string name="better_together">Meglio Insieme</string>
+    <string name="better_together_details">Connettiti con amici e famiglia per scambiare i vostri oggetti fra di voi</string>
+    <string name="item_info">Informazione oggetto</string>
+    <string name="item_taken">Questo oggetto è stato preso</string>
+    <string name="trade_again">Scambio effettuato con successo, Scambiare un altro oggetto?</string>
+
+
+    <string name="boarding">Serve Aiuto</string>
+    <string name="back">&lt;</string>
+    <string name="next">&gt;</string>
+    <string name="finish">Termina</string>
+
+
+    <string name="to_advance">Per Avanzare</string>
+    <string name="to_extreme">All\'Estremo</string>
+    <string name="max_stage">Livello Massimo Raggiunto</string>
+    <string name="advance">Modalità Avanza</string>
+    <string name="extreme">Modalità Estrema</string>
+    <string name="Startup">Modalità Avvio</string>
+
+
+    <string name="screen1"></string>
+    <string name="screen2">premi poi sul regalo per rivelare le sue informazioni</string>
+    <string name="screen3">Appariranno poi i dettagli del regalo e chi te l\'ha mandato, premi su "RACCOGLI" per raccoglierlo</string>
+    <string name="screen4">Puoi facilmente navigare nell\'app usando questo menù</string>
+    <string name="screen5">Trova i tuoi regali collezionati qui</string>
+    <string name="screen6">per riscattare la tua gift card premi su "POSIZIONE" per tracciare la posizione del negozio. Non dimenticarti di mostrare il codice QR a chi ti fa il regalo</string>
+    <string name="screen7">Connettiti con amici e famiglia per scambiare regali, Scansionando il loro Codice QR Regalo </string>
+    <string name="screen8">Seleziona i tuoi interessi per ricevere i tuoi tipi di regali preferiti</string>
+    <string name="screen9">Consentendo ad akram di accedere alla tua posizione, il regalo potrà apparire sulla mappa</string>
+    <string name="screen10"></string>
+
+    <string name="title1">Ogni giorno è natalle con \n App Akram</string>
+    <string name="title2">Trova i Tuoi Regali Spostandoti</string>
+    <string name="title3">Raccogli Regali</string>
+    <string name="title4">Naviga l\'App</string>
+    <string name="title5">La Tua Collezione</string>
+    <string name="title6">Dettagli dei Tuoi Regali</string>
+    <string name="title7">Scambia</string>
+    <string name="title8">Interessi</string>
+    <string name="title9">Accesso Posizione</string>
+    <string name="title10">Sei Pronto!\n Apri Akram, Vinci Regali E Goditi L\'Esperienza</string>
+
+
+    <string name="Rate_Us">Ti piace l\'app? Ti preghiamo di votarci</string>
+    <string name="Dismiss">Chiudi</string>
+
+    <string name="notificationGift">C\'è un regalo vicino a te, apri l\'app per trovarlo.</string>
+    <string name="old_qr_version">Il codice Qr che hai scansionato è vecchio, fai aggiornare l\'applicazione a chi ha l\'oggetto</string>
+    <string name="locations">Posizioni</string>
+    <string name="readingqr">In attesa che il QR venga letto</string>
+    <string name="item_got_read">Regalo letto</string>
+    <string name="foryoursefty">Per la tua sicurezza, ti preghiamo di non giocare con Akram mentre stai guidando.</string>
+
+
+    <string name="item_not_available">Oggetto non disponibile</string>
+    <string name="item_added_in_collection">Oggetto aggiunto alla tua collezione</string>
+    <string name="item_qr_not_supported">Codice Qr non supportato, si prega di riprovare più tardi</string>
+    <string name="there_is">Hai già Regali da</string>
+    <string name="in_your_collection">nella tua collezione</string>
+
+
+    <string name="gift_name">Nome Regalo</string>
+    <string name="gift_info">Informazioni Regalo</string>
+    <string name="btn_continue">Continua</string>
+    <string name="gift_rules">Regole Regalo</string>
+    <string name="acknowledged">Riconosciuto</string>
+    <string name="empty_field_phone">Il telefono non può essere vuoto</string>
+    <string name="empty_dob">La Data di Nascita non può essere vuota</string>
+    <string name="empty_gender">Il Genere non può essere vuoto</string>
+    <string name="rating">Valutazione</string>
+    <string name="gift_rated">Regalo valutato con successo</string>
+    <string name="dismiss">Chiudi</string>
+    <string name="date_of_birth">Data Di Nascita</string>
+    <string name="phone_number">Numero di Telefono</string>
+    <string name="user_information">Informazioni Utente</string>
+    <string name="rate_gift">Valuta Regalo</string>
+    <string name="forget_password">Password dimenticata</string>
+    <string name="skip_login">Salta Login</string>
+    <string name="reseting_password">Inviando Email di Reimpostazione</string>
+    <string name="email_sent">Email inviata con successo</string>
+    <string name="gender">Seleziona Genere</string>
+    <string name="enter_your_email_address">Inserisci il tuo Indirizzo Email</string>
+    <string name="gift_type">Tipo Regalo</string>
+    <string name="phone_wrong_size">Il numero di telefono deve essere fra 8 e 12 cifre</string>
+    <string name="expiry_date">Data Scadenza :</string>
+    <string name="scan_item">Scansiona Oggetto</string>
+    <string name="about_us_details">Un moderno gioco di caccia al tesoro che ha più di 4000 regali con un valore che eccede 500.000.00 $, gioca e divertiti a collezionare un grande numero di regali e vinci soldi completando le sfide</string>
+    <string name="loading">Caricamento..</string>
+    <string name="my_interest">Miei Interessi</string>
+    <string name="will_expire">Scadrà in due giorni, riscatta ora e divertiti</string>
+    <string name="change_password">Cambia Password</string>
+    <string name="sending_interest">"Inviando Interesse"</string>
+    <string name="get_categories">Ottieni Categorie</string>
+    <string name="mocking_spoofing">Si prega di spegnere la posizione falsa</string>
+    <string name="current_password">Vecchia Password</string>
+    <string name="new_password">Nuova Password</string>
+    <string name="submit">Invia</string>
+    <string name="wrong_password">Questa password non corrisponde alla password utente</string>
+    <string name="by_registering_you_are_accepting_the_terms_and_condition">Registrandoti stai accettando i termini e le condizioni</string>
+    <string name="valid_dob">La tua età deve essere di almeno 10 anni</string>
+    <string name="location_permistion">Consenti ad Akram di Accedere alla posizione del dispositivo?</string>
+
+
+    <string-array name="country_codes">
+        <item>+</item>
+        <item>+961</item>
+        <item>+962</item>
+        <item>+971</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Maschio</item>
+        <item>Femmina</item>
+    </string-array>
+    <string name="title_activity_how_to_play2">ComeGiocare2</string>
+    <string name="section_format">Ciao Mondo dalla sezione: %1$d</string>
+    <string name="open">Apri</string>
+    <string name="start">Avvia</string>
+    <string name="error_occurred_please_sign_in_again">Errore si prega di rieffettuare l\'accesso</string>
+
+    <string name="sign_in">Registrati</string>
+    <string name="sign_in_with_fb">Accedi con Facebook</string>
+    <string name="ic_facebook">&#xf39e;</string>
+    <string name="dont_have_account">Non hai un account?</string>
+    <string name="sign_up">ISCRIVITI</string>
+    <string name="events">eventi</string>
+    <string name="noEvents">Nessun evento da mostrare</string>
+
+    <string name="title_activity_event_details">dettagli dell\'evento</string>
+    <string name="country">Nazione : </string>
+    <string name="created_date">Data di Creazione : </string>
+    <string name="starting_date">Data di inizio : </string>
+    <string name="status">Stato : </string>
+    <string name="created">Creata:</string>
+    <string name="starting">Di partenza:</string>
+    <string name="gift">Regalo</string>
+</resources>
+

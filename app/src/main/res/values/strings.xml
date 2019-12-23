@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <string name="facebook_app_id">2050964971847476</string>
     <string name="app_name">Akram</string>
@@ -109,6 +109,7 @@
     <string name="header_user">USER</string>
     <string name="about_us">About Akram</string>
     <string name="terms_and_condition">Terms &amp; Condition</string>
+    <string name="events">Events</string>
     <string name="settings">Settings</string>
     <string name="profile">Profile</string>
     <string name="map">Map</string>
@@ -174,6 +175,7 @@
     <string name="Collect">collect</string>
     <string name="login_required">Please login to collect items</string>
     <string name="ExploreAndFind">No collected items in your account to show, Explore and collect items from the map</string>
+    <string name="noEvents">No events to show</string>
 
     <string name="trade">Trade</string>
     <string name="better_together">Better Together</string>
@@ -184,7 +186,7 @@
 
 
     <string name="boarding">Need Help</string>
-    <string name="back">&lt;</string>
+    <string name="back" tools:ignore="MissingTranslation">&lt;</string>
     <string name="next">&gt;</string>
     <string name="finish">Finish</string>
 
@@ -295,4 +297,17 @@
         <item>Male</item>
         <item>Female</item>
     </string-array>
+    <string name="title_activity_event_details">Event Details</string>
+    <string name="country">Country : </string>
+    <string name="created_date">Created date : </string>
+    <string name="starting_date">Starting date : </string>
+    <string name="status">Status : </string>
+    <string name="created">Created:</string>
+    <string name="starting">Starting:</string>
+    <string name="gift">Gift</string>
+
+    <string name="how_was_your_experience">How was your experience</string>
+    <string name="with_this_merchant">with this merchant?</string>
+
+
 </resources>

@@ -13,6 +13,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 import com.Utils;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -26,7 +29,6 @@ import java.util.Calendar;
 
 public class MyCollection extends AppCompatActivity {
 
-
     private FirebaseRecyclerAdapter<Collection,CollectionAdapter> firebaseRecyclerAdapter1;
     private DatabaseReference databaseCollection;
     private DatabaseReference databasehas; // when item expired will delete from has as well
@@ -36,6 +38,8 @@ public class MyCollection extends AppCompatActivity {
     private TextView textView;
     private ImageView imgView;
     private String has[];
+    private InterstitialAd mInterstitialAd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,8 +53,8 @@ public class MyCollection extends AppCompatActivity {
 
         Intent intent =getIntent();
         user_id=intent.getStringExtra("User_id");
-        databaseCollection= FirebaseDatabase.getInstance().getReference().child("Akram").child(String.valueOf(user_id))
-                .child("Collection");
+        databaseCollection= FirebaseDatabase.getInstance().getReference().child("Akram").child(String.valueOf(user_id)).child("Collection");
+
         databasehas=FirebaseDatabase.getInstance().getReference().child("Akram").child(String.valueOf(user_id));
 
         databaseItemsTaken = FirebaseDatabase.getInstance().getReference().child("Akram").child("Items");
@@ -69,6 +73,45 @@ public class MyCollection extends AppCompatActivity {
             @Override
             public void onCancelled(DatabaseError databaseError) {
 
+            }
+        });
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-2373364756954365/9080377931");
+        AdRequest request = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        mInterstitialAd.loadAd(request);
+
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                // Code to be executed when an ad request fails.
+            }
+
+            @Override
+            public void onAdOpened() {
+                // Code to be executed when the ad is displayed.
+            }
+
+            @Override
+            public void onAdClicked() {
+                // Code to be executed when the user clicks on an ad.
+            }
+
+            @Override
+            public void onAdLeftApplication() {
+                // Code to be executed when the user has left the app.
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Code to be executed when the interstitial ad is closed.
             }
         });
     }
@@ -105,15 +148,12 @@ public class MyCollection extends AppCompatActivity {
                 if(dataSnapshot.exists()){
 
                     firebaseRecyclerAdapter1=new
-                            FirebaseRecyclerAdapter<Collection, CollectionAdapter>(Collection.class,
-                                    R.layout.collection_item_view,
-                                    CollectionAdapter.class,
-                                    databaseCollection) {
+                            FirebaseRecyclerAdapter<Collection, CollectionAdapter>(Collection.class, R.layout.collection_item_view, CollectionAdapter.class, databaseCollection) {
                                 @Override
                                 protected void populateViewHolder(final CollectionAdapter viewHolder, final Collection model, int position) {
 
                                     Utils.hideLoading();
-
+                                    Log.e("Collection", model.toString());
                                     DatabaseReference postRef = getRef(position);
                                     final String name = postRef.getKey();
 
@@ -158,17 +198,24 @@ public class MyCollection extends AppCompatActivity {
                                                 Toast.makeText(MyCollection.this,"This item got redeemed",Toast.LENGTH_SHORT).show();
                                                 return;
                                             }
-                                            Intent QrItem = new Intent(MyCollection.this,QrItem.class);
 
-                                            Log.e("uid",name);
-                                            QrItem.putExtra("uid",name);
-                                            QrItem.putExtra("Name",model.getName());
-                                            QrItem.putExtra("Type",model.getType());
-                                            QrItem.putExtra("Dis",model.getDistance());
-                                            QrItem.putExtra("Loc",model.getLoc());
-                                            QrItem.putExtra("user_id",user_id);
-                                            QrItem.putExtra("item_id",model.getItem_id());
+                                            Intent QrItem = new Intent(MyCollection.this, QrItem.class);
+
+                                            Log.e("uid", name);
+                                            QrItem.putExtra("uid", name);
+                                            QrItem.putExtra("Name", model.getName());
+                                            QrItem.putExtra("Type", model.getType());
+                                            QrItem.putExtra("Dis", model.getDistance());
+                                            QrItem.putExtra("Loc", model.getLoc());
+                                            QrItem.putExtra("user_id", user_id);
+                                            QrItem.putExtra("item_id", model.getItem_id());
                                             startActivity(QrItem);
+
+                                            if (mInterstitialAd.isLoaded()) {
+                                                mInterstitialAd.show();
+                                            } else {
+                                                Log.d("TAG", "The interstitial wasn't loaded yet.");
+                                            }
                                         }
                                     });
                                 }
@@ -191,13 +238,11 @@ public class MyCollection extends AppCompatActivity {
             super(itemView);
             mView=itemView;
         }
-
         public void setExpiry(String status){
             TextView txtExpiry =(TextView) mView.findViewById(R.id.tvExpirey);
             txtExpiry.setText(mView.getResources().getString(R.string.expiry_date) + status);
 
         }
-
         public void setName(String status){
             TextView txtAmount=(TextView) mView.findViewById(R.id.collectionName);
             //String k = mView.getResources().getString(R.string.transaction_status);

@@ -9,12 +9,10 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -37,10 +35,8 @@ import com.libraries.usersession.UserSession;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Timer;
 
-public class QrcodeReader extends AppCompatActivity {
-
+public class TradeActivity extends AppCompatActivity {
 
     private View mView;
     private Button btnopebQr,btnredeem,btncancel;
@@ -61,17 +57,14 @@ public class QrcodeReader extends AppCompatActivity {
     private int counterItem = 0;
     private String authItems;
 
-
-
     private InterstitialAd mInterstitialAd;
     private boolean isShowingIntersitital = false;
     //private Timer timerInterstitial;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_qrcode_reader);
+        setContentView(R.layout.activity_trade);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         init();
@@ -125,7 +118,7 @@ public class QrcodeReader extends AppCompatActivity {
         btnopebQr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentQr=new Intent(QrcodeReader.this,QrcodeRaederCamera.class);
+                Intent intentQr=new Intent(TradeActivity.this,QrcodeRaederCamera.class);
                 startActivityForResult(intentQr,2);
             }
         });
@@ -139,12 +132,12 @@ public class QrcodeReader extends AppCompatActivity {
 
     private void UpdateTexts(final String info){
 
-        Utils.showLoading(QrcodeReader.this,true);
+        Utils.showLoading(TradeActivity.this,true);
 
         scannedlayout.setVisibility(View.VISIBLE);
         notscannedlayout.setVisibility(View.GONE);
 
-        Vibrator v = (Vibrator) getSystemService(QrcodeReader.this.VIBRATOR_SERVICE);
+        Vibrator v = (Vibrator) getSystemService(TradeActivity.this.VIBRATOR_SERVICE);
 
         v.vibrate(200);
 
@@ -153,13 +146,10 @@ public class QrcodeReader extends AppCompatActivity {
         Log.e("Info",info + "length : "+infoArray.length);
 
         if(infoArray.length < 6 ){
-            Toast.makeText(QrcodeReader.this,getResources().getString(R.string.old_qr_version),Toast.LENGTH_LONG).show();
+            Toast.makeText(TradeActivity.this,getResources().getString(R.string.old_qr_version),Toast.LENGTH_LONG).show();
             reset();
         }
         try{
-
-
-
 //            id.setText(id.getText()+infoArray[0]);
             type.setText(type.getText()+infoArray[2]);
             name.setText(name.getText()+infoArray[1]);
@@ -168,16 +158,15 @@ public class QrcodeReader extends AppCompatActivity {
             user_id=infoArray[5];
 
             //mAuth = FirebaseAuth.getInstance();
-            databaseReference= FirebaseDatabase.getInstance().getReference().child("Akram").child(user_id)
+           databaseReference= FirebaseDatabase.getInstance().getReference().child("Akram").child(user_id)
                     .child("Collection").child(String.valueOf(infoArray[0]));
+            Log.e("itemID",FirebaseDatabase.getInstance().getReference().child("Akram").child(user_id)
+                    .child("Collection").child(String.valueOf(infoArray[0])).toString());
             databaseItems=FirebaseDatabase.getInstance().getReference().child("Akram").child(infoArray[0]);
+            Log.e("itemID",FirebaseDatabase.getInstance().getReference().child("Akram").child(infoArray[0]).toString());
             databaseReferencetaken=FirebaseDatabase.getInstance().getReference().child("Akram").child("Items").child(infoArray[0]);
-
+            Log.e("itemID",FirebaseDatabase.getInstance().getReference().child("Akram").child("Items").child(infoArray[0]).toString());
             //databaseAuth = FirebaseDatabase.getInstance().getReference().child("Akram").child("MarketToItems").child(mAuth.getCurrentUser().getUid());
-
-
-
-
 
             databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
@@ -207,7 +196,7 @@ public class QrcodeReader extends AppCompatActivity {
                         btncancel.setVisibility(View.VISIBLE);
                         btnopebQr.setVisibility(View.GONE);
 
-                        Utils.showLoading(QrcodeReader.this,true);
+                        Utils.showLoading(TradeActivity.this,true);
 
                     } else{
 
@@ -463,7 +452,7 @@ public class QrcodeReader extends AppCompatActivity {
                 public void onAdLoaded() {
                     super.onAdLoaded();
                     isShowingIntersitital = false;
-                    //Toast.makeText(QrcodeReader.this,"add ready",Toast.LENGTH_LONG).show();
+                    //Toast.makeText(TradeActivity.this,"add ready",Toast.LENGTH_LONG).show();
                 }
             });
 

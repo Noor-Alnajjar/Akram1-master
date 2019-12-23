@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id">2050964971847476</string>
+    <string name="app_name">Akram</string>
+    <string name="code_name">2.1  猎户座</string>
+    <string name="my_location">我的位置</string>
+    <string name="custom">习惯</string>
+    <string name="added_by">加在</string>
+    <string name="added_by_colon">加在</string>
+    <string name="custom_location">自定义位置</string>
+    <string name="pin_drag_map">握住别针，在地图上拖曳</string>
+    <string name="no_pokemon_selected">请选择礼物</string>
+    <string name="field_empty_error">请填写所有字段</string>
+    <string name="field_empty_error_details_pokestop">请提供一个pokestop名称</string>
+    <string name="field_empty_error_details_gym">请提供健身房的名字</string>
+    <string name="placeholder_pokestop">古迹、公园、教堂等</string>
+    <string name="placeholder_gym">例如古迹、公园等</string>
+    <string name="report_count">报告计数</string>
+    <string name="flag_sighting">瞄准国旗</string>
+    <string name="chars_left">左</string>
+    <string name="send">发送</string>
+    <string name="empty_error_flag_details">为标记原因提供文本</string>
+    <string name="empty_error">原因误差</string>
+    <string name="reporting">报告</string>
+    <string name="report">报告</string>
+    <string name="login_error">登录错误</string>
+    <string name="problems_encountered_login">登录过程中遇到的问题 。稍后再试</string>
+    <string name="network_error">网络误差</string>
+    <string name="no_network_connection">无网络连接</string>
+    <string name="loging_to_facebook">登录Facebook</string>
+    <string name="login_to_twitter">登录Twitter</string>
+    <string name="login_to_google_plus">登录Google Plus</string>
+    <string name="home">家</string>
+    <string name="my_sightings">我的目击</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="login_register">登录/注册</string>
+    <string name="syncing_sighting">同步瞄准</string>
+    <string name="evaluating">评估...</string>
+    <string name="flag_details">标志细节</string>
+    <string name="placeholder_reasons">理由</string>
+    <string name="sighting_details">礼物细节</string>
+    <string name="add_gym">添加健身房</string>
+    <string name="edit_gym">编辑健身房</string>
+    <string name="select_pokemon">选择礼品</string>
+    <string name="add_pokemon">添加礼品</string>
+    <string name="edit_pokemon">编辑礼品</string>
+    <string name="add_pokestop">添加停止</string>
+    <string name="edit_pokestop">编辑停止</string>
+    <string name="empty_field_name">名字不应该是空的</string>
+    <string name="empty_field_fullname">全名不应为空</string>
+    <string name="empty_field_username">用户名不应为空</string>
+    <string name="empty_field_username_passowrd">用户名/密码不应为空</string>
+    <string name="empty_field_email">电子邮件应有效</string>
+    <string name="empty_field_password">密码字段不应为空</string>
+    <string name="alert_delete_title">删除瞄准</string>
+    <string name="alert_delete_details">你确定要删除吗？</string>
+    <string name="all">所有</string>
+    <string name="gym">健身房</string>
+    <string name="pokemon">礼品</string>
+    <string name="pokemon_details">礼物细节</string>
+    <string name="pokestop">戳停</string>
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="action_settings">设置</string>
+    <string name="ok">好的</string>
+    <string name="login">进入</string>
+    <string name="starred">主演</string>
+    <string name="location_error">定位误差</string>
+    <string name="gps_off">位置/ GPS目前已关闭。 转到“移动设备设置”，找到“位置”并设置为“开”</string>
+    <string name="failed_to_get_data">无法获得数据</string>
+    <string name="no_results_found">未找到结果</string>
+    <string name="empty">-----</string>
+    <string name="no_text"></string>
+    <string name="logging_in">在登录</string>
+    <string name="action_error">动作误差</string>
+    <string name="register">注册</string>
+    <string name="registering_user">注册用户</string>
+    <string name="placeholder_name">名称</string>
+    <string name="add_from_galleries">从图库添加</string>
+    <string name="add_from_camera">从相机中添加</string>
+    <string name="update_profile">更新配置文件</string>
+    <string name="get_location">获取位置</string>
+    <string name="create">创建</string>
+    <string name="no_selected_location">请选择位置</string>
+    <string name="sync_error">同步误差</string>
+    <string name="problems_encountered_while_syncing">同步时遇到的问题。稍后再试</string>
+    <string name="delete_image">删除图片</string>
+    <string name="delete_image_details">您确定要删除图片吗？</string>
+    <string name="yes">是的</string>
+    <string name="no">不</string>
+    <string name="drag_to_move_around"></string>
+    <string name="location">位置</string>
+    <string name="action_done">完成</string>
+    <string name="cannot_proceed_empty_latlong">空位置，请在地图中选择地图图钉。</string>
+    <string name="delete">删除</string>
+    <string name="search">搜索</string>
+    <string name="search_results">搜索结果</string>
+    <string name="results">结果</string>
+    <string name="radius">范围</string>
+    <string name="km">千米</string>
+    <string name="m">米</string>
+    <string name="header_categories">类别</string>
+    <string name="header_extras">附加物</string>
+    <string name="header_user">用户</string>
+    <string name="about_us">关于Akram</string>
+    <string name="terms_and_condition">条款和条件</string>
+    <string name="settings">设置</string>
+    <string name="profile">项目组合表</string>
+    <string name="map">地图</string>
+    <string name="profile_details">资料详情</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="updating_profile">更新资料</string>
+    <string name="edit">剪辑</string>
+    <string name="select">选择</string>
+    <string name="deleting">删除</string>
+    <string name="update">更新</string>
+    <string name="update_sighting">更新瞄准</string>
+    <string name="current_location">当前位置</string>
+    <string name="placeholder_search">闪光灯、毒药、地面等。</string>
+    <string name="alert_logout_user_title">注销用户</string>
+    <string name="alert_logout_user_title_details">你确定要注销吗？</string>
+    <string name="logout">注销</string>
+    <string name="tap_here_to_login">点击这里登录</string>
+    <string name="password">密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="username">用户名</string>
+    <string name="full_name">全名</string>
+    <string name="add_photo">添加照片</string>
+    <string name="no_value">-----</string>
+    <string name="empty_fields">空领域</string>
+    <string name="wrong_fields_size">字段大小错误</string>
+    <string name="field_error">现场错误</string>
+    <string name="field_error_password">密码不匹配</string>
+    <string name="field_error_password_8_chars">密码至少应为8个字符</string>
+    <string name="empty_fields_register">所有字段都不应为空</string>
+    <string name="tap_back_again_to_exit">请点击再次退出应用程序</string>
+    <string name="password_error">密码错误</string>
+    <string name="password_error_details">密码不匹配</string>
+    <string name="password_error_less_than_8_chars_details">密码必须至少为8个字符</string>
+    <string name="pokemon_name">礼品名称</string>
+    <string name="type">类型</string>
+    <string name="search_nearby">搜索附近</string>
+    <string name="like">喜欢</string>
+    <string name="dislike">不喜欢</string>
+    <string name="placeholder_email">电子信函</string>
+    <string name="placeholder_password">密码</string>
+    <string name="placeholder_confirm_password">确认密码</string>
+    <string name="username_chars_restriction">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_.</string>
+    <string name="password_chars_restriction">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_.@#%^&amp;*()_+/*-</string>
+    <string name="placeholder_username">用户名</string>
+    <string name="placeholder_full_name">全名</string>
+
+    <string name="permission_error">权限错误</string>
+    <string name="permission_error_details_location">请求位置被拒绝。你需要打开位置才能得到附近商店的相关结果</string>
+
+    <string name="cancel">取消</string>
+    <string name="go_to_settings">设置</string>
+    <string name="location_error_not_turned_on">由于拒绝位置请求，因此不显示数据</string>
+    <string name="grant_permission_storage">您需要授予读取到存储的权限请求</string>
+    <string name="gps_not_on">GPS目前已关闭。 请在您的移动设备下启用它</string>
+    <string name="location_error_not_turned_on_search">你拒绝了定位请求，搜索功能被禁用</string>
+
+
+    <string name="Redeem_items_confirm">收集</string>
+    <string name="Redeem_items_details">你想收集物品吗？</string>
+    <string name="title_activity_maps_test">地图</string>
+    <string name="to_collection">添加到集合</string>
+    <string name="Collect">收集</string>
+    <string name="login_required">请登入领取物品</string>
+    <string name="ExploreAndFind">您的帐户中没有收集的项目可以显示，浏览和收集地图中的项目</string>
+
+    <string name="trade">交易</string>
+    <string name="better_together">一起更好</string>
+    <string name="better_together_details">与朋友和家人联系，在您自己之间交易您的物品</string>
+    <string name="item_info">物品信息</string>
+    <string name="item_taken">这件物品被拿走了</string>
+    <string name="trade_again">交易成功，交易另一个项目？</string>
+
+
+    <string name="boarding">需要帮助</string>
+    <string name="next">&gt;</string>
+    <string name="finish">完成</string>
+
+
+    <string name="to_advance">前进</string>
+    <string name="to_extreme">极端</string>
+    <string name="max_stage">达到最大阶段</string>
+    <string name="advance">高级模式</string>
+    <string name="extreme">极端模式</string>
+    <string name="Startup">启动模式</string>
+
+
+    <string name="screen1"></string>
+    <string name="screen2">然后点击礼物以显示其信息</string>
+    <string name="screen3">然后礼物的详细信息和它的提供者将出现，只需点击“收集”按钮来收集它</string>
+    <string name="screen4">通过使用此幻灯片菜单，您可以轻松地浏览应用程序</string>
+    <string name="screen5">在这里找到你收藏的礼物</string>
+    <string name="screen6">要兑换您的礼物，请单击“位置”以跟踪店铺位置。不要忘记向礼品提供商展示二维码</string>
+    <string name="screen7">通过扫描他们的礼品二维码，与朋友和家人联系以交换礼物</string>
+    <string name="screen8">选择您的兴趣来控制收到您喜欢的礼物</string>
+    <string name="screen9">通过允许Akram访问您的位置，礼物将能够出现在地图上</string>
+    <string name="screen10"></string>
+
+    <string name="title1">每天都是Akram应用程序的圣诞节</string>
+    <string name="title2">四处走动寻找你的礼物</string>
+    <string name="title3">收集礼物</string>
+    <string name="title4">浏览应用程序</string>
+    <string name="title5">你的收藏</string>
+    <string name="title6">你的礼物细节</string>
+    <string name="title7">交易</string>
+    <string name="title8">兴趣爱好</string>
+    <string name="title9">位置访问</string>
+    <string name="title10">你准备好了！ 打开Akram，赢取礼物，享受体验</string>
+
+
+    <string name="Rate_Us">喜欢这款应用吗？请给我们</string>
+    <string name="Dismiss">解雇</string>
+
+    <string name="notificationGift">有一个礼物在你身边，打开应用程序找到它</string>
+    <string name="old_qr_version">您扫描的QR码已过时，让项目持有者更新其申请</string>
+    <string name="locations">位置</string>
+    <string name="readingqr">等待要读取的QR码</string>
+    <string name="item_got_read">礼物得到了解读</string>
+    <string name="foryoursefty">为了你自己的安全，请不要在你开车的时候和Akram玩</string>
+
+
+    <string name="item_not_available">没有可用的项目</string>
+    <string name="item_added_in_collection">添加到您的集合中的项目</string>
+    <string name="item_qr_not_supported">不支持QR码，请稍后重试</string>
+    <string name="there_is">你已经有礼物了</string>
+    <string name="in_your_collection">在你的收藏中</string>
+
+
+    <string name="gift_name">礼品名称</string>
+    <string name="gift_info">礼品信息</string>
+    <string name="btn_continue">继续</string>
+    <string name="gift_rules">礼品规则</string>
+    <string name="acknowledged">已确认</string>
+    <string name="empty_field_phone">电话不应该是空的</string>
+    <string name="empty_dob">出生日期不应为空</string>
+    <string name="empty_gender">性别不应该是空的</string>
+    <string name="rating">评价</string>
+    <string name="gift_rated">礼品评价成功</string>
+    <string name="dismiss">解雇</string>
+    <string name="date_of_birth">出生日期</string>
+    <string name="phone_number">电话号码</string>
+    <string name="user_information">用户信息</string>
+    <string name="rate_gift">评价礼品</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="skip_login">跳过登录</string>
+    <string name="reseting_password">发送重置电子邮件</string>
+    <string name="email_sent">电子邮件发送成功</string>
+    <string name="gender">选择性别</string>
+    <string name="enter_your_email_address">输入您的电子邮件地址</string>
+    <string name="gift_type">礼品类型</string>
+    <string name="phone_wrong_size">电话号码必须在8至12位之间</string>
+    <string name="expiry_date">到期日 </string>
+    <string name="scan_item">扫描物品</string>
+    <string name="about_us_details">这是一款现代寻宝游戏，拥有超过4000种价值超过500.000.00美元的礼物，玩耍并享受收集大量礼物并从完成挑战中获取现金</string>
+    <string name="loading">等待中</string>
+    <string name="my_interest">我的兴趣</string>
+    <string name="will_expire">将在两天后到期，现在兑换并享受它</string>
+    <string name="change_password">修改密码</string>
+    <string name="sending_interest">“发送兴趣”</string>
+    <string name="get_categories">获取类别</string>
+    <string name="mocking_spoofing">请关闭位置模拟</string>
+    <string name="current_password">原密码</string>
+    <string name="new_password">新密码</string>
+    <string name="submit">提交</string>
+    <string name="wrong_password">此密码与用户密码不匹配</string>
+    <string name="by_registering_you_are_accepting_the_terms_and_condition">通过注册，您将接受这些条款和条件</string>
+    <string name="valid_dob">您的年龄应至少为10岁</string>
+    <string name="location_permistion">允许Akram访问此设备位置?</string>
+
+
+    <string-array name="country_codes">
+        <item>+</item>
+        <item>+961</item>
+        <item>+962</item>
+        <item>+971</item>
+    </string-array>
+    <string-array name="gender">
+        <item>男性</item>
+        <item>女性</item>
+    </string-array>
+    <string name="title_activity_how_to_play2">怎么玩2</string>
+    <string name="section_format">“你好世界”栏目</string>
+    <string name="open">打开</string>
+    <string name="start">开始</string>
+    <string name="error_occurred_please_sign_in_again">发生错误请重新登录</string>
+
+    <string name="sign_in">登入</string>
+    <string name="sign_in_with_fb">用facebook登录</string>
+    <string name="ic_facebook">&#xf39e;</string>
+    <string name="dont_have_account">没有帐号？</string>
+    <string name="sign_up">注册</string>
+    <string name="events">大事记</string>
+    <string name="noEvents">没有活动可显示</string>
+
+    <string name="title_activity_event_details">活动详情</string>
+    <string name="country">国家 : </string>
+    <string name="created_date">创建日期 : </string>
+    <string name="starting_date">开始日期 : </string>
+    <string name="status">状态 : </string>
+    <string name="created">已建立:</string>
+    <string name="starting">开始:</string>
+    <string name="gift">礼品</string>
+
+</resources>

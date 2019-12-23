@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id">2050964971847476</string>
+    <string name="app_name">Akram</string>
+    <string name="code_name">2.1  Orion</string>
+    <string name="my_location">Моё местоположение</string>
+    <string name="custom">Кастомное</string>
+    <string name="added_by">Добавлено</string>
+    <string name="added_by_colon">Добавлено</string>
+    <string name="custom_location">Кастомное местоположение</string>
+    <string name="pin_drag_map">Возьмите булавку и перетаскивайте ее по карте.</string>
+    <string name="no_pokemon_selected">Пожалуйста, выберете подарок.</string>
+    <string name="field_empty_error">Пожалуйста, заполните все поля.</string>
+    <string name="field_empty_error_details_pokestop">Укажите имя покестопа.</string>
+    <string name="field_empty_error_details_gym">Укажите имя джима.</string>
+    <string name="placeholder_pokestop">напр. памятники, церкви, парки и т.д..</string>
+    <string name="placeholder_gym">напр. памятники, парки и т.д.</string>
+    <string name="report_count">Количество жалоб</string>
+    <string name="flag_sighting">Пометить находку</string>
+    <string name="chars_left">Символов осталось</string>
+    <string name="send">Отправить</string>
+    <string name="empty_error_flag_details">Добавьте текст для пометки.</string>
+    <string name="empty_error">Причина ошибки</string>
+    <string name="reporting">Отправляется</string>
+    <string name="report">Пожаловаться</string>
+    <string name="login_error">Ошибка входа</string>
+    <string name="problems_encountered_login">Не получилось войти. Попробуйте позже.</string>
+    <string name="network_error">Ошибка сети</string>
+    <string name="no_network_connection">Нет сетевого подключения.</string>
+    <string name="loging_to_facebook">Войти через Facebook</string>
+    <string name="login_to_twitter">Войти через Twitter</string>
+    <string name="login_to_google_plus">Войти через Google Plus</string>
+    <string name="home">Домашняя</string>
+    <string name="my_sightings">Мои находки</string>
+    <string name="my_collection">Моя коллекция</string>
+    <string name="login_register">Вход/Регистрация</string>
+    <string name="syncing_sighting">Синхронизация находок</string>
+    <string name="evaluating">Оценивается...</string>
+    <string name="flag_details">Детали пометки</string>
+    <string name="placeholder_reasons">Причины</string>
+    <string name="sighting_details">Детали подарка</string>
+    <string name="add_gym">Добавить джим</string>
+    <string name="edit_gym">Редактировать джим</string>
+    <string name="select_pokemon">Выбрать подарок</string>
+    <string name="add_pokemon">Добавить подарок</string>
+    <string name="edit_pokemon">Редактировать подарок</string>
+    <string name="add_pokestop">Добавить покестоп</string>
+    <string name="edit_pokestop">Редактировать покестоп</string>
+    <string name="empty_field_name">Имя не должно быть пустым.</string>
+    <string name="empty_field_fullname">Полное имя не должно быть пустым.</string>
+    <string name="empty_field_username">Имя пользователя не должно быть пустым.</string>
+    <string name="empty_field_username_passowrd">Имя пользователя/пароль не должны быть пустыми.</string>
+    <string name="empty_field_email">Эл.адрес должен быть действительным.</string>
+    <string name="empty_field_password">Поля пароля не должны быть пустыми.</string>
+    <string name="alert_delete_title">Удалить находку</string>
+    <string name="alert_delete_details">Уверены, что хотите удалить?</string>
+    <string name="all">Все</string>
+    <string name="gym">Джим</string>
+    <string name="pokemon">Подарок</string>
+    <string name="pokemon_details">Детали подарка</string>
+    <string name="pokestop">Покестоп</string>
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="action_settings">Настройки</string>
+    <string name="ok">Ок</string>
+    <string name="login">Логин</string>
+    <string name="starred">Помечено</string>
+    <string name="location_error">Ошибка локации</string>
+    <string name="gps_off"> Местоположение/GPS выключены. Зайдите в настройки устройства, найдите Местоположение и включите его.</string>
+    <string name="failed_to_get_data">Не удалось получить данные.</string>
+    <string name="no_results_found">Ничего не найдено.</string>
+    <string name="empty">-----</string>
+    <string name="no_text"></string>
+    <string name="logging_in">Вход</string>
+    <string name="action_error">Ошибка действия</string>
+    <string name="register">Регистрация</string>
+    <string name="registering_user">Регистрация пользователя</string>
+    <string name="placeholder_name">Имя</string>
+    <string name="add_from_galleries">Добавить из Галереи</string>
+    <string name="add_from_camera">Добавить из камеры</string>
+    <string name="update_profile">Обновить профиль</string>
+    <string name="get_location">Получить местоположение</string>
+    <string name="create">Создать</string>
+    <string name="no_selected_location">Выберете местоположение.</string>
+    <string name="sync_error">Ошибка синхронизации</string>
+    <string name="problems_encountered_while_syncing">Синхронизация не удалась. Попробуйте позже.</string>
+    <string name="delete_image">Удалить изображение</string>
+    <string name="delete_image_details">Уверены, что хотите удалить изображение?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="drag_to_move_around"></string>
+    <string name="location">Местоположение</string>
+    <string name="action_done">Готово</string>
+    <string name="cannot_proceed_empty_latlong">Нет местоположения. Выберете булавку на карте.</string>
+    <string name="delete">Удалить</string>
+    <string name="search">Поиск</string>
+    <string name="search_results">Результаты поиска</string>
+    <string name="results">Результаты</string>
+    <string name="radius">Радиус</string>
+    <string name="km">км.</string>
+    <string name="m">м.</string>
+    <string name="header_categories">КАТЕГОРИИ</string>
+    <string name="header_extras">ДОПОЛНИТЕЛЬНО</string>
+    <string name="header_user">ПОЛЬЗОВАТЕЛЬ</string>
+    <string name="about_us">Про Akram</string>
+    <string name="terms_and_condition">Положения и условия</string>
+    <string name="settings">Настройки</string>
+    <string name="profile">Профиль</string>
+    <string name="map">Карта</string>
+    <string name="profile_details">Детали профиля</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="updating_profile">Обновление профиля</string>
+    <string name="edit">Редактировать</string>
+    <string name="select">Выбрать</string>
+    <string name="deleting">Удаление</string>
+    <string name="update">Обновить</string>
+    <string name="update_sighting">Обновить находку</string>
+    <string name="current_location">Текущее местоположение</string>
+    <string name="placeholder_search">напр. Бульбазавр, Яд, Земля, и т.д.</string>
+    <string name="alert_logout_user_title">Выйти</string>
+    <string name="alert_logout_user_title_details">Уверены, что хотите выйти?</string>
+    <string name="logout">Выйти</string>
+    <string name="tap_here_to_login">Нажмите здесь, чтобы войти.</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Подтвердить пароль</string>
+    <string name="username">Имя пользователя</string>
+    <string name="full_name">Полное имя</string>
+    <string name="add_photo">Добавить фото</string>
+    <string name="no_value">-----</string>
+    <string name="empty_fields">Пустые поля</string>
+    <string name="wrong_fields_size">Неправильные размер поля</string>
+    <string name="field_error">Ошибка поля</string>
+    <string name="field_error_password">Пароль не совпадает.</string>
+    <string name="field_error_password_8_chars">Пароль должен быть хотя бы 8 символов.</string>
+    <string name="empty_fields_register">Все поля должны быть заполнены.</string>
+    <string name="tap_back_again_to_exit">Нажмите “Назад” снова, чтобы выйти из приложения.</string>
+    <string name="password_error">Ошибка пароля</string>
+    <string name="password_error_details">Пароль не совпадает.</string>
+    <string name="password_error_less_than_8_chars_details">Пароль должен быть хотя бы 8 символов.</string>
+    <string name="pokemon_name">Имя подарка</string>
+    <string name="type">Тип</string>
+    <string name="search_nearby">Поиск поблизости</string>
+    <string name="like">Нравится</string>
+    <string name="dislike">Не нравится</string>
+    <string name="placeholder_email">Эл.адрес</string>
+    <string name="placeholder_password">Пароль</string>
+    <string name="placeholder_confirm_password">Подтвердить пароль</string>
+    <string name="username_chars_restriction">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_.</string>
+    <string name="password_chars_restriction">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_.@#%^&amp;*()_+/*-</string>
+    <string name="placeholder_username">Имя пользователя</string>
+    <string name="placeholder_full_name">Полное имя</string>
+
+    <string name="permission_error">Ошибка прав</string>
+    <string name="permission_error_details_location">Не разрешен доступ к местоположению. Дайте разрешение, чтобы видеть результаты по магазинам возле Вас.</string>
+
+    <string name="cancel">Отменить</string>
+    <string name="go_to_settings">Настройки</string>
+    <string name="location_error_not_turned_on">Нет данных, так как вы не дали доступ к Вашему местоположению.</string>
+    <string name="grant_permission_storage">Дайте разрешение на просмотр хранилища.</string>
+    <string name="gps_not_on">GPS выключен. Включите его в Настройках устройства > Местоположение.</string>
+    <string name="location_error_not_turned_on_search">Вы не разрешили доступ к местоположению. Функция поиска недоступна.</string>
+
+
+    <string name="Redeem_items_confirm">Взять</string>
+    <string name="Redeem_items_details">Вы хотите взять предмет?</string>
+    <string name="title_activity_maps_test">Карта</string>
+    <string name="to_collection">Добавление в коллекцию</string>
+    <string name="Collect">Взять</string>
+    <string name="login_required">Войдите, чтобы забрать предметы</string>
+    <string name="ExploreAndFind">У Вас нет собранных предметов, Ищите и собирайте предметы на карте</string>
+
+    <string name="trade">Обмен</string>
+    <string name="better_together">Вместе лучше</string>
+    <string name="better_together_details">Установите связь с друзьями и родственниками, чтобы обмениваться предметами</string>
+    <string name="item_info">Инфо предмета</string>
+    <string name="item_taken">Этот предмет уже забрали</string>
+    <string name="trade_again">Обмен успешный, Обменять еще что-то?</string>
+
+
+    <string name="boarding">Нужна помощь</string>
+    <string name="back">&lt;</string>
+    <string name="next">&gt;</string>
+    <string name="finish">Закончить</string>
+
+
+    <string name="to_advance">До продвинутого режима</string>
+    <string name="to_extreme">До экстремального режима</string>
+    <string name="max_stage">Достигнут максимальный уровень</string>
+    <string name="advance">Продвинутый режим</string>
+    <string name="extreme">Экстремальный режим</string>
+    <string name="Startup">Начальный режим</string>
+
+
+    <string name="screen1"></string>
+    <string name="screen2">потом нажмите на подарок, чтобы просмотреть его инфо</string>
+    <string name="screen3">Тогда появятся детали подарка и его поставщик, просто нажмите кнопку “Взять”, чтобы забрать подарок</string>
+    <string name="screen4">Легко управляйте приложением через меню-слайдер</string>
+    <string name="screen5">Просмотрите полученный подарок здесь</string>
+    <string name="screen6">для получения подарка нажмите “Местоположение”, чтобы найти магазин. Покажите код QR поставщику подарка</string>
+    <string name="screen7">Установите связь с друзьями и семьей чтобы обмениваться подарками, просканировав их код QR </string>
+    <string name="screen8">Выберете Ваши интересы, чтобы получать подарки по Вашему вкусу</string>
+    <string name="screen9">Дайте Akram доступ к Вашему местоположению, чтобы подарки появлялись на карте.</string>
+    <string name="screen10"></string>
+
+    <string name="title1">Каждый день как Новый год с \n Akram App</string>
+    <string name="title2">Гуляйте и находите Ваши подарки</string>
+    <string name="title3">Собирайте подарки</string>
+    <string name="title4">Управляйте приложением</string>
+    <string name="title5">Ваша коллекция</string>
+    <string name="title6">Детали Ваших подарков</string>
+    <string name="title7">Обменивайтесь</string>
+    <string name="title8">Интересы</string>
+    <string name="title9">Доступ к местоположению</string>
+    <string name="title10">Вы готовы!\n Откройте Akram, зарабатывайте подарки и проводите время весело</string>
+
+
+    <string name="Rate_Us">Понравилось приложение? Пожалуйста, оцените нас</string>
+    <string name="Dismiss">Игнорировать</string>
+
+    <string name="notificationGift">Возле Вас есть подарок, откройте приложение , чтобы найти его.</string>
+    <string name="old_qr_version">Ваш код QR устарел, Пусть владелец предмета обновит свое приложение</string>
+    <string name="locations">Локации</string>
+    <string name="readingqr">Ожидание QR кода</string>
+    <string name="item_got_read">Подарок прочитан</string>
+    <string name="foryoursefty">Для Вашей же безопасности, пожалуйста, не играйте в Akram за рулем.</string>
+
+
+    <string name="item_not_available">Предмет недоступен</string>
+    <string name="item_added_in_collection">Предмет добавлен в Вашу коллекцию</string>
+    <string name="item_qr_not_supported">Код QR не поддерживается, попробуйте позже</string>
+    <string name="there_is">У Вас уже есть подарки от</string>
+    <string name="in_your_collection">в Вашей коллекции</string>
+
+
+    <string name="gift_name">Имя подарка</string>
+    <string name="gift_info">Инфо подарка</string>
+    <string name="btn_continue">Продолжить</string>
+    <string name="gift_rules">Правила подарка</string>
+    <string name="acknowledged">Ознакомлен</string>
+    <string name="empty_field_phone">Телефон не должен быть пустым</string>
+    <string name="empty_dob">Дата рождения не должна быть пустой</string>
+    <string name="empty_gender">Пол не может быть пустым</string>
+    <string name="rating">Рейтинг</string>
+    <string name="gift_rated">Подарок оценен успешно</string>
+    <string name="dismiss">Игнорировать</string>
+    <string name="date_of_birth">Дата рождения</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="user_information">Инфо пользователя</string>
+    <string name="rate_gift">Оценить подарок</string>
+    <string name="forget_password">Напомнить пароль</string>
+    <string name="skip_login">Пропустить вход</string>
+    <string name="reseting_password">Отправка письма для восстановления</string>
+    <string name="email_sent">Письмо отправлено успешно</string>
+    <string name="gender">Выберете пол</string>
+    <string name="enter_your_email_address">Вставьте ваш эл.адрес</string>
+    <string name="gift_type">Тип подарка</string>
+    <string name="phone_wrong_size">Телефон должен быть от 8 до 12 цифр</string>
+    <string name="expiry_date">Конечный срок :</string>
+    <string name="scan_item">Просканировать предмет</string>
+    <string name="about_us_details">Современная игра по поиску сокровищ с более чем 4000 подарков общей стоимостью более 500 000,00 $, играй и наслаждайся сбором огромного количества подарков и выигрывай реальные деньги выполняя задания</string>
+    <string name="loading">Загрузка..</string>
+    <string name="my_interest">Мои интересы</string>
+    <string name="will_expire">Срок годности истекает через два дня, заберите сейчас и наслаждайтесь</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="sending_interest">"Отправка интереса"</string>
+    <string name="get_categories">Просмотреть категории</string>
+    <string name="mocking_spoofing">Выключите заглушку/имитацию местоположения</string>
+    <string name="current_password">Старый пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="submit">Отправить</string>
+    <string name="wrong_password">Этот пароль не совпадает с паролем пользователя</string>
+    <string name="by_registering_you_are_accepting_the_terms_and_condition">Регистрируясь, Вы соглашаетесь с положениями и условиями</string>
+    <string name="valid_dob">Вам должно быть не менее 10 лет</string>
+    <string name="location_permistion">Разрешить Akram доступ к местоположению этого устройства?</string>
+
+
+    <string-array name="country_codes">
+        <item>+</item>
+        <item>+961</item>
+        <item>+962</item>
+        <item>+971</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+    <string name="title_activity_how_to_play2">КакИграть2</string>
+    <string name="section_format">Привет Мир из секции: %1$d</string>
+    <string name="open">Открыть</string>
+    <string name="start">Начать</string>
+    <string name="error_occurred_please_sign_in_again">Произошла ошибка, попробуйте войти позже</string>
+
+    <string name="sign_in">Войти в систему</string>
+    <string name="sign_in_with_fb">Авторизоваться с помощью Фэйсбука</string>
+    <string name="ic_facebook">&#xf39e;</string>
+    <string name="dont_have_account">Нет аккаунта?</string>
+    <string name="sign_up">ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="events">Мероприятия</string>
+    <string name="noEvents">Нет событий для показа</string>
+
+    <string name="title_activity_event_details">Детали события</string>
+    <string name="country">Страна : </string>
+    <string name="created_date">Дата создания : </string>
+    <string name="starting_date">Дата начала : </string>
+    <string name="status">Положение дел : </string>
+    <string name="created">созданный:</string>
+    <string name="starting">начало:</string>
+    <string name="gift">Подарок</string>
+</resources>
